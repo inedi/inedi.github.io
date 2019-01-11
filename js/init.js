@@ -445,7 +445,7 @@ function inedi_tm_animate_text(){
 	var animateSpan			= jQuery('.inedi_tm_animation_text_word');
 	
 		animateSpan.typed({
-            strings: ["App DEVELOP", "UX engineering", "UI DESIGNERS"],
+            strings: ["App DEVELOP", "UX Engineering", "UI DESIGNERS"],
 			loop: true,
 			startDelay: 1e3,
 			backDelay: 2e3

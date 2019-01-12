@@ -1,2 +1,2 @@
 # inedi.github.io
-hi end UI Design
+[inedi.github.io](inedi.github.io)

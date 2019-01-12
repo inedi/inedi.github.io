@@ -20,7 +20,7 @@ jQuery(document).ready(function(){
 	inedi_tm_owl_carousel();
 	inedi_tm_text_animation();
 	inedi_tm_animate_text();
-	inedi_tm_popupscroll();
+	//inedi_tm_popupscroll();
 	inedi_tm_popup_blog();
 
 	

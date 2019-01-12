@@ -16,11 +16,11 @@ jQuery(document).ready(function(){
 	inedi_tm_totop_myhide();
 	inedi_tm_nav_bg_scroll();
 	inedi_tm_anchor();
-	inedi_tm_contact_form();
+	//inedi_tm_contact_form();
 	inedi_tm_owl_carousel();
 	inedi_tm_text_animation();
 	inedi_tm_animate_text();
-	//inedi_tm_popupscroll();
+	//inedi_tm_popupscroll(); nice scroll naher
 	inedi_tm_popup_blog();
 
 	
@@ -80,7 +80,7 @@ function inedi_tm_hamburger(){
 	
 	var hamburger 		= jQuery('.hamburger');
 	var mobileMenu		= jQuery('.inedi_tm_mobile_menu_wrap');
-	
+
 	hamburger.on('click',function(){
 		var element 	= jQuery(this);
 		
@@ -92,7 +92,8 @@ function inedi_tm_hamburger(){
 			mobileMenu.slideDown();
 		}
 		return false;
-	});
+    });
+
 }
 
 // -----------------------------------------------------
@@ -401,8 +402,10 @@ function inedi_tm_owl_carousel(){
 			480:{items:2},
 			768:{items:3},
 			1040:{items:4},
-			1600:{items:4},
-			1920:{items:4}
+            1400:{items:5},
+			1600:{items:6},
+			1925:{items:7},
+            2300:{items:8}
 		}
 	});
 }

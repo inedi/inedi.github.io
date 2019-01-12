@@ -10,7 +10,7 @@
 	07)	inedi SERVICES
 	08)	inedi PORTFOLIO
 	09) inedi TESTIMONIALS
-	10) inedi NEWS
+	10) inedi BEST
 	11) inedi PARTNERS
 	12) inedi WORK TOGETHER
 	13) inedi CONTACT
@@ -40,6 +40,7 @@ body{
 	word-wrap: break-word;
 	font-weight: 400;
 	background-color: #000000;
+    color:white;
 }
 svg{
 	fill: currentcolor;
@@ -64,6 +65,12 @@ img.svg{
 }
 .inedi_tm_section.about {
     padding-top:80px;
+    background-image: url(..//img/background/back3.png);
+    background-repeat:no-repeat;
+    background-size:auto;
+    background-position-x:right;
+    background-position-y:center;
+
 }
 .inedi_tm_content{
 	position: relative;
@@ -433,8 +440,8 @@ img.svg{
 	right: 0px;
 	z-index: 20;
 }
-.inedi_tm_universal_box_wrap .overlay_color.video{background-color: rgba(0,0,0,.9);}
-.inedi_tm_universal_box_wrap .overlay_image.hero{background-image: url(..//img/hero/1.jpg);}
+.inedi_tm_universal_box_wrap .overlay_color.video{background-color: rgba(0,0,0,.8);}
+.inedi_tm_universal_box_wrap .overlay_image.hero{background-image: url(..//img/jarallax/1.jpg);}
 .inedi_tm_universal_box_wrap .content{
 	width: 100%;
 	height: auto;
@@ -612,14 +619,15 @@ img.svg{
 	background-size: cover;
 	background-position: center;
 }
-.inedi_tm_about_wrap .rightbox{
-	width: 65%;
-	float: left;
-	padding: 0px 65px 0px 0px;
-	
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
-			box-sizing: border-box; /* Opera/IE 8+ */ 
+
+
+.inedi_tm_about_wrap .rightbox {
+    width: 65%;
+    float: left;
+    padding: 0px 65px 0px 0px;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box; /* Firefox, other Gecko */
+    box-sizing: border-box; /* Opera/IE 8+ */
 }
 .inedi_tm_about_wrap .rightbox .name_holder{margin-bottom: 25px;}
 .inedi_tm_about_wrap .rightbox .name_holder h3{color: #fff;}
@@ -835,6 +843,12 @@ img.svg{
 /*---------------------------------------------------*/
 /*	08)	inedi PORTFOLIO
 /*---------------------------------------------------*/
+.inedi_tm_section.best {
+    background-image: url(..//img/background/grd.png);
+    background-repeat:repeat;
+    background-size:auto;
+    background-position: center;
+}
 
 .inedi_tm_portfolio_wrap{
 	width: 100%;
@@ -1014,9 +1028,9 @@ img.svg{
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */ 
 }
-.inedi_tm_universal_box_wrap .overlay_image.testimonial{background-image: url(..//img/jarallax/1.jpg);}
-.inedi_tm_universal_box_wrap .overlay_color.testimonial{background-color: rgba(0,0,0,.95);}
-.inedi_tm_universal_box_wrap .content.testimonial{padding-bottom: 95px;}
+.inedi_tm_universal_box_wrap .overlay_image.testimonial{background-image: url(..//img/jarallax/Scroll2.png);}
+.inedi_tm_universal_box_wrap .overlay_color.testimonial{background-color: rgba(0,0,0,.5);}
+.inedi_tm_universal_box_wrap .content.testimonial{padding-bottom: 80px;}
 .inedi_tm_testimonial_wrap .carousel_wrap{
 	width: 100%;
 	height: auto;
@@ -1070,15 +1084,16 @@ img.svg{
 }
 
 /*---------------------------------------------------*/
-/*	10) inedi NEWS
+/*	10) inedi BEST
 /*---------------------------------------------------*/
+
 
 .inedi_tm_news_wrap{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
-	background-color: #000;
+	/*background-color: #000;*/
 	/*margin-bottom: 70px;*/
 	
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
@@ -1371,11 +1386,12 @@ img.svg{
 
 /*---------------------------------------------------*/
 /*	11) inedi PARTNERS
+
 /*---------------------------------------------------*/
 
-.inedi_tm_universal_box_wrap .overlay_image.partners{background-image: url(..//img/jarallax/2.jpg);}
-.inedi_tm_universal_box_wrap .overlay_color.partners{background-color: rgba(0,0,0,.95);}
-.inedi_tm_universal_box_wrap .content.partners{padding: 90px 0px;}
+.inedi_tm_universal_box_wrap .overlay_image.partners{background-image: url(..//img/jarallax/Scroll3.png);}
+.inedi_tm_universal_box_wrap .overlay_color.partners{background-color: rgba(0,0,0,.5);}
+.inedi_tm_universal_box_wrap .content.partners{padding: 0px 0px;}
 .inedi_tm_partners_wrap_total{
 	width: 100%;
 	height: auto;
@@ -1385,8 +1401,6 @@ img.svg{
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */ 
-	
-	margin-bottom: 100px;
 }
 .inedi_tm_partners_wrap{
 	width: 100%;
@@ -1462,6 +1476,12 @@ img.svg{
 /*---------------------------------------------------*/
 /*	13) inedi CONTACT
 /*---------------------------------------------------*/
+.inedi_tm_section.contact {
+    /*background-image: url(..//img/background/dotgrid_dark-1500x1500.jpg);
+    background-repeat: repeat;
+    background-size: auto;
+    background-position: center;*/
+}
 
 .inedi_tm_contact_wrap{
 	max-width: 830px;
@@ -1561,7 +1581,6 @@ img.svg{
 	clear: both;
 	float: left;
 	text-align: center;
-	background-color: #060606;
 	padding: 50px;
 	
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
@@ -1721,7 +1740,7 @@ img.svg{
 	.inedi_tm_main_title_holder_wrap .number_wrap span{font-size: 36px;}
 	.inedi_tm_main_title_holder_wrap .title_wrap span{font-size: 36px;}
 	.inedi_tm_main_title_holder_wrap{padding-bottom: 75px;}
-	.inedi_tm_universal_box_wrap .content.partners{padding: 60px 0px;}
+	.inedi_tm_universal_box_wrap .content.partners{padding: 0px 0px;}
 	.inedi_tm_hero_header .hero_title .first{font-size: 33px;}
 	.inedi_tm_universal_box_wrap .hero_title.homepage_third h3{font-size: 33px;}
 	.inedi_tm_universal_box_wrap .hero_title.homepage_third span{font-size: 15px;}
@@ -1747,7 +1766,7 @@ img.svg{
 	.inedi_tm_main_title_holder_wrap .number_wrap span{font-size: 32px;}
 	.inedi_tm_main_title_holder_wrap .title_wrap span{font-size: 32px;}
 	.inedi_tm_main_title_holder_wrap{padding-bottom: 65px;}
-	.inedi_tm_universal_box_wrap .content.partners{padding: 50px 0px;}
+	.inedi_tm_universal_box_wrap .content.partners{padding: 0px 0px;}
 	.inedi_tm_hero_header .hero_title .first{font-size: 23px;}
 	.inedi_tm_universal_box_wrap .hero_title.homepage_third h3{font-size: 20px;}
 	.inedi_tm_universal_box_wrap .hero_title.homepage_third span{font-size: 12px;}

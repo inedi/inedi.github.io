@@ -1,2 +1,2 @@
 # inedi.github.io
-[inedi.github.io](inediapps.com)
+[inedi.github.io](http://inediapps.com/)

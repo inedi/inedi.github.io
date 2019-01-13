@@ -18,8 +18,9 @@
 	inedi_tm_anchor();
 	//inedi_tm_contact_form();
 	//inedi_tm_owl_carousel();
-	inedi_tm_text_animation();
-	inedi_tm_animate_text();
+    inedi_tm_text_animation();
+    inedi_tm_animate_text();
+    inedi_tm_animate_text_404();
 	//inedi_tm_popupscroll(); nice scroll naher
 	inedi_tm_popup_blog();
 
@@ -437,22 +438,37 @@ function inedi_tm_text_animation(){
 	});
 }
 
+
 // -------------------------------------------------
 // -------------   ANIMATE TEXT  -------------------
 // -------------------------------------------------
 
-function inedi_tm_animate_text(){
+function inedi_tm_animate_text_404(){
 	
 	"use strict";
 	
-	var animateSpan			= jQuery('.inedi_tm_animation_text_word');
+	var animateSpan			= jQuery('.inedi_tm_animation_text_404');
 	
 		animateSpan.typed({
-            strings: ["App DEVELOP", "UX Engineering", "UI DESIGNERS"],
+            strings: ["PAGE NOT FOUND", "CODE: 404"],
 			loop: true,
 			startDelay: 1e3,
 			backDelay: 2e3
 		});
+}
+
+function inedi_tm_animate_text() {
+
+    "use strict";
+
+    var animateSpan = jQuery('.inedi_tm_animation_text_word');
+
+    animateSpan.typed({
+        strings: ["App DEVELOP", "UX Engineering", "UI DESIGNERS"],
+        loop: true,
+        startDelay: 1e3,
+        backDelay: 2e3
+    });
 }
 
 // -----------------------------------------------------

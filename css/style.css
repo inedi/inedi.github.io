@@ -458,6 +458,8 @@ img.svg{
 	z-index: 20;
 	max-width: 40%;
 }
+
+
 .container.hero{
 	position: static;
 	width: 1000px;
@@ -1479,7 +1481,10 @@ img.svg{
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.inedi_tm_work_together_wrap .invite a:hover{background-color: #555;}
+.inedi_tm_work_together_wrap .invite a:hover{
+    background-color: white;
+    color: #ed2629;
+}
 
 /*---------------------------------------------------*/
 /*	13) inedi CONTACT
@@ -1682,7 +1687,16 @@ img.svg{
     color: #ed2629;
 	font-size: 25px;
 	font-weight: 500;
+    margin-left: 2px;
 }
+
+.inedi_tm_animation_text_404 {
+    color: #ed2629;
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 4px;
+}
+
 .typed-cursor {
     color: #ed2629;
     font-size: 25px;
@@ -1728,6 +1742,7 @@ img.svg{
 	.inedi_tm_hero_header .hero_title .first{font-size: 42px;}
 	.inedi_tm_universal_box_wrap .hero_title.homepage_third h3{font-size: 42px;}
 	.inedi_tm_animation_text_word{font-size: 18px;}
+    .inedi_tm_animation_text_404{font-size: 18px;}
 	#inedi_tm_popup_blog .close{right: 0px;}
 }
 @media (max-width: 768px) {
@@ -1752,6 +1767,7 @@ img.svg{
 	.inedi_tm_universal_box_wrap .hero_title.homepage_third h3{font-size: 33px;}
 	.inedi_tm_universal_box_wrap .hero_title.homepage_third span{font-size: 15px;}
 	.inedi_tm_animation_text_word{font-size: 17px;}
+    .inedi_tm_animation_text_404{font-size: 17px;}
 	.inedi_tm_main_demos_list_wrap ul li{width: 50%;}
 	.inedi_tm_about_wrap.homepage_second .rightbox{padding-left: 0px;}
 }
@@ -1778,6 +1794,7 @@ img.svg{
 	.inedi_tm_universal_box_wrap .hero_title.homepage_third h3{font-size: 20px;}
 	.inedi_tm_universal_box_wrap .hero_title.homepage_third span{font-size: 12px;}
 	.inedi_tm_animation_text_word{font-size: 15px;}
+    .inedi_tm_animation_text_404{font-size: 15px;}
 	.inedi_tm_main_demos_list_wrap ul{margin-left: 0px;}
 	.inedi_tm_main_demos_list_wrap ul li{width: 100%;padding: 0px;}
 	.container{padding: 0px 20px !important;}

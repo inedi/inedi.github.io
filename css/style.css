@@ -4,7 +4,7 @@
 	03) inedi MOBILE MENU
 	04) inedi HAMBURGER
 	05) inedi CONTENT
-	06) inedi ABOUT
+	06) inedi ABOUTa
 	07)	inedi SERVICES
 	08)	inedi PORTFOLIO
 	09) inedi CLIENTS
@@ -621,20 +621,20 @@ img.svg{
 	color: #eee;
 	margin-bottom: 20px;
 }
-.inedi_tm_about_wrap .rightbox .sharebox ul{
+.inedi_tm_about_wrap .rightbox .iconbox ul{
 	margin: 0px;
 	list-style-type: none;
 }
-.inedi_tm_about_wrap .rightbox .sharebox ul li{
+.inedi_tm_about_wrap .rightbox .iconbox ul li{
 	margin: 0px 9px 0px 0px;
 	display: inline-block;
 }
-.inedi_tm_about_wrap .rightbox .sharebox ul li span{
+.inedi_tm_about_wrap .rightbox .iconbox ul li span{
 	color: #fff;
 	padding-right: 12px;
 	font-size: 16px;
 }
-.inedi_tm_about_wrap .rightbox .sharebox ul li a{
+.inedi_tm_about_wrap .rightbox .iconbox ul li a{
 	text-decoration: none;
 	color: #fff;
 	font-size: 16px;
@@ -645,7 +645,7 @@ img.svg{
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.inedi_tm_about_wrap .rightbox .sharebox ul li a:hover{color: #ed2629;}
+.inedi_tm_about_wrap .rightbox .iconbox ul li a:hover{color: #ed2629;}
 
 /*---------------------------------------------------*/
 /*	07)	inedi SERVICES
@@ -1116,7 +1116,10 @@ img.svg{
 .inedi_tm_news_wrap .definitions_wrap{padding: 40px 30px 47px 30px;}
 .inedi_tm_news_wrap .image_wrap{position: relative;}
 .inedi_tm_news_wrap .image_wrap .big{display: none;}
-.inedi_tm_news_wrap .image_wrap .small{display: block;}
+.inedi_tm_news_wrap .image_wrap .bestpreview{
+    display: block;
+
+}
 .inedi_tm_news_wrap .news_image{
 	position: absolute;
 	top: 0px;
@@ -1266,7 +1269,7 @@ img.svg{
 	display: block;
 	min-height: 250px;
 }
-#inedi_tm_popup_blog .image_wrap .small{display: none;}
+
 #inedi_tm_popup_blog .image_wrap .news_image{
 	position: absolute;
 	top: 0px;
@@ -1729,7 +1732,7 @@ img.svg{
 	.inedi_tm_about_wrap .rightbox{width: 100%;padding: 0px;}
 	.inedi_tm_about_wrap .rightbox .name_holder{text-align: center;}
 	.inedi_tm_about_wrap .definition{text-align: center;}
-	.inedi_tm_about_wrap .sharebox{text-align: center;}
+	.inedi_tm_about_wrap .iconbox{text-align: center;}
 	.inedi_tm_list_wrap[data-column="3"] ul.total > li{width: 50%;}
 	.inedi_tm_list_wrap[data-column="4"] ul.total > li{width: 50%;}
 	.inedi_tm_list_wrap[data-column="5"] ul.total > li{width: 50%;}

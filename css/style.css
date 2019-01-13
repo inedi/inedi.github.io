@@ -57,15 +57,14 @@ img.svg{
     -moz-box-sizing: border-box; /* Firefox, other Gecko */
     box-sizing: border-box; /* Opera/IE 8+ */
 }
-.inedi_tm_section.about {
-    /*padding-top:80px;
-    background-image: url(..//img/background/back3.png);
+    .inedi_tm_section.about {
+        padding-top: 80px;
+        /*background-image: url(..//img/background/back3.png);
     background-repeat:no-repeat;
     background-size:auto;
     background-position-x:right;
     background-position-y:center;*/
-
-}
+    }
 .inedi_tm_content{
 	position: relative;
 	z-index: 1;
@@ -1087,7 +1086,12 @@ img.svg{
 /*---------------------------------------------------*/
 /*	10) inedi BEST
 /*---------------------------------------------------*/
-
+.inedi_tm_section.best {
+    background-image: url(..//img/background/grd.png);
+    background-repeat: repeat;
+    background-size: auto;
+    background-position: center;
+}
 
 .inedi_tm_news_wrap{
 	width: 100%;

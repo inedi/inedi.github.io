@@ -9,7 +9,7 @@
 	06) inedi ABOUT
 	07)	inedi SERVICES
 	08)	inedi PORTFOLIO
-	09) inedi TESTIMONIALS
+	09) inedi CLIENTS
 	10) inedi BEST
 	11) inedi PARTNERS
 	12) inedi WORK TOGETHER
@@ -664,6 +664,12 @@ img.svg{
 /*---------------------------------------------------*/
 /*	07)	inedi SERVICES
 /*---------------------------------------------------*/
+.inedi_tm_section.services {
+    background-image: url(..//img/background/grd.png);
+    background-repeat: repeat;
+    background-size: auto;
+    background-position: center;
+}
 
 .inedi_tm_services_total_wrap{
 	width: 100%;
@@ -843,12 +849,12 @@ img.svg{
 /*---------------------------------------------------*/
 /*	08)	inedi PORTFOLIO
 /*---------------------------------------------------*/
-.inedi_tm_section.best {
+/*.inedi_tm_section.portfolio {
     background-image: url(..//img/background/grd.png);
-    background-repeat:repeat;
-    background-size:auto;
+    background-repeat: repeat;
+    background-size: auto;
     background-position: center;
-}
+}*/
 
 .inedi_tm_portfolio_wrap{
 	width: 100%;
@@ -1015,8 +1021,16 @@ img.svg{
 .inedi_tm_portfolio_list .list_inner .definition_portfolio .first a:hover{color: #ed2629;}
 
 /*---------------------------------------------------*/
-/*	09) inedi TESTIMONIALS
+/*	09) inedi CLIENTS
 /*---------------------------------------------------*/
+.inedi_tm_section.clients {
+    background-image: url(..//img/background/back.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: left;
+    background-position-y: top;
+}
+
 
 .inedi_tm_testimonial_wrap{
 	width: 100%;
@@ -1028,7 +1042,7 @@ img.svg{
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */ 
 }
-.inedi_tm_universal_box_wrap .overlay_image.testimonial{background-image: url(..//img/jarallax/Scroll2.png);}
+.inedi_tm_universal_box_wrap .overlay_image.testimonial{background-image: url(..//img/jarallax/2.jpg);}
 .inedi_tm_universal_box_wrap .overlay_color.testimonial{background-color: rgba(0,0,0,.5);}
 .inedi_tm_universal_box_wrap .content.testimonial{padding-bottom: 80px;}
 .inedi_tm_testimonial_wrap .carousel_wrap{
@@ -1038,7 +1052,8 @@ img.svg{
 	float: left;
 	text-align: center;
 	cursor: e-resize;
-	
+	margin-bottom:78px;
+
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */ 
@@ -1391,7 +1406,7 @@ img.svg{
 
 .inedi_tm_universal_box_wrap .overlay_image.partners{background-image: url(..//img/jarallax/Scroll3.png);}
 .inedi_tm_universal_box_wrap .overlay_color.partners{background-color: rgba(0,0,0,.5);}
-.inedi_tm_universal_box_wrap .content.partners{padding: 0px 0px;}
+.inedi_tm_universal_box_wrap .content.partners{padding: 0px 0px 78px 0px;}
 .inedi_tm_partners_wrap_total{
 	width: 100%;
 	height: auto;
@@ -1476,12 +1491,7 @@ img.svg{
 /*---------------------------------------------------*/
 /*	13) inedi CONTACT
 /*---------------------------------------------------*/
-.inedi_tm_section.contact {
-    /*background-image: url(..//img/background/dotgrid_dark-1500x1500.jpg);
-    background-repeat: repeat;
-    background-size: auto;
-    background-position: center;*/
-}
+
 
 .inedi_tm_contact_wrap{
 	max-width: 830px;

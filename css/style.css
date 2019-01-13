@@ -1,7 +1,5 @@
 ﻿@charset "utf-8";
-/*
-
-	01) inedi BASE
+/*	01) inedi BASE
 	02) inedi HEADER
 	03) inedi MOBILE MENU
 	04) inedi HAMBURGER
@@ -17,12 +15,8 @@
 	14) inedi FOOTER
 	15) inedi TO TOP
 	16) inedi MEDIA QUERIES (FOR SMALL DEVIVES)
-	
 
-
-
-
-
+    accentcolor #ed2629
 /*---------------------------------------------------*/
 /*	01) inedi BASE
 /*---------------------------------------------------*/
@@ -64,12 +58,12 @@ img.svg{
     box-sizing: border-box; /* Opera/IE 8+ */
 }
 .inedi_tm_section.about {
-    padding-top:80px;
+    /*padding-top:80px;
     background-image: url(..//img/background/back3.png);
     background-repeat:no-repeat;
     background-size:auto;
     background-position-x:right;
-    background-position-y:center;
+    background-position-y:center;*/
 
 }
 .inedi_tm_content{
@@ -441,7 +435,7 @@ img.svg{
 	z-index: 20;
 }
 .inedi_tm_universal_box_wrap .overlay_color.video{background-color: rgba(0,0,0,.8);}
-.inedi_tm_universal_box_wrap .overlay_image.hero{background-image: url(..//img/jarallax/1.png);}
+.inedi_tm_universal_box_wrap .overlay_image.hero{background-image: url(..//img/jarallax/1.jpg);}
 .inedi_tm_universal_box_wrap .content{
 	width: 100%;
 	height: auto;
@@ -565,36 +559,28 @@ img.svg{
 .inedi_tm_main_title_holder_wrap.portfolio{padding-bottom: 22px;}
 .inedi_tm_main_title_holder_wrap.testimonial{padding-bottom: 80px;}
 .inedi_tm_main_title_holder_wrap.contact{padding-bottom: 80px;}
-.inedi_tm_main_title_holder_wrap .number_wrap {
-        width: 100px;
+    .inedi_tm_main_title_holder_wrap .number_wrap {
+        width: 10px;
         height: 80px;
-        text-align: center;
         line-height: 80px;
-        display: inline-block;
         background-color: #ed2629;
+        position: absolute;
     }
-
-.inedi_tm_main_title_holder_wrap .number_wrap span{
-	color: #FFF;
-	font-size: 40px;
-	font-weight: 800;
-	display: inline-block;
-	font-family: "Montserrat";
-}
 
 .inedi_tm_main_title_holder_wrap .title_wrap {
         display: inline-block;
-        margin-left: 20px;
+        margin-left: 30px;
         
     }
 
-.inedi_tm_main_title_holder_wrap .title_wrap span {
-    color: #fff;
-    font-size: 40px;
-    font-weight: 800;
-    display: inline-block;
-    font-family: "Montserrat";
-}
+    .inedi_tm_main_title_holder_wrap .title_wrap span {
+        color: #fff;
+        font-size: 40px;
+        font-weight: 700;
+        display: inline-block;
+        font-family: "Montserrat";
+        line-height: 80px;
+    }
 .inedi_tm_about_wrap .author_wrap{
 	width: 100%;
 	height: auto;
@@ -1024,11 +1010,11 @@ img.svg{
 /*	09) inedi CLIENTS
 /*---------------------------------------------------*/
 .inedi_tm_section.clients {
-    background-image: url(..//img/background/back.png);
+    /*background-image: url(..//img/background/back.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position-x: left;
-    background-position-y: top;
+    background-position-y: top;*/
 }
 
 
@@ -1404,7 +1390,7 @@ img.svg{
 
 /*---------------------------------------------------*/
 
-.inedi_tm_universal_box_wrap .overlay_image.partners{background-image: url(..//img/jarallax/Scroll3.png);}
+.inedi_tm_universal_box_wrap .overlay_image.partners{background-image: url(..//img/jarallax/2.jpg);}
 .inedi_tm_universal_box_wrap .overlay_color.partners{background-color: rgba(0,0,0,.5);}
 .inedi_tm_universal_box_wrap .content.partners{padding: 0px 0px 78px 0px;}
 .inedi_tm_partners_wrap_total{
@@ -1449,7 +1435,7 @@ img.svg{
     background-size: cover;
     background-position: center;
     padding: 73px 0px 80px 0px;
-    margin-bottom:80px;
+    /*margin-bottom:80px;*/
     -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
     -moz-box-sizing: border-box; /* Firefox, other Gecko */
     box-sizing: border-box; /* Opera/IE 8+ */
@@ -1691,8 +1677,12 @@ img.svg{
 	font-weight: 500;
 }
 .typed-cursor {
-    color: rgba(0, 0, 0, 0);
+    color: #ed2629;
+    font-size: 25px;
+    font-weight: 500;
 }
+
+
 .inedi_tm_about_wrap.homepage_second .rightbox{
 	float: right;
 	padding-right: 0px;

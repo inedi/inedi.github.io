@@ -1,4 +1,4 @@
-jQuery(document).ready(function(){
+﻿jQuery(document).ready(function(){
 
 	"use strict";
 	
@@ -17,7 +17,7 @@ jQuery(document).ready(function(){
 	inedi_tm_nav_bg_scroll();
 	inedi_tm_anchor();
 	//inedi_tm_contact_form();
-	inedi_tm_owl_carousel();
+	//inedi_tm_owl_carousel();
 	inedi_tm_text_animation();
 	inedi_tm_animate_text();
 	//inedi_tm_popupscroll(); nice scroll naher
@@ -365,50 +365,50 @@ function inedi_tm_contact_form(){
 // --------------------    OWL CAROUSEL    -------------
 // -----------------------------------------------------
 
-function inedi_tm_owl_carousel(){
+//function inedi_tm_owl_carousel(){
 	
-	"use strict";
+//	"use strict";
 	
-	var carusel2			= jQuery('.inedi_tm_testimonial_wrap .owl-carousel');
-  	carusel2.owlCarousel({
-		loop:true,
-		margin:70,
-		autoplay:7000,
-		autoWidth: false,
-		nav: false,
-		items:3,
-		smartSpeed:5000,
-		responsive:{
-			0:{items:1},
-			480:{items:2},
-			768:{items:3},
-			1040:{items:3},
-			1600:{items:3},
-			1920:{items:3}
-		}
-	});
+//	var carusel2			= jQuery('.inedi_tm_testimonial_wrap .owl-carousel');
+//  	carusel2.owlCarousel({
+//		loop:true,
+//		margin:70,
+//		autoplay:7000,
+//		autoWidth: false,
+//		nav: false,
+//		items:3,
+//		smartSpeed:5000,
+//		responsive:{
+//			0:{items:1},
+//			480:{items:2},
+//			768:{items:3},
+//			1040:{items:3},
+//			1600:{items:3},
+//			1920:{items:3}
+//		}
+//	});
 	
-	var carusel3			= jQuery('.inedi_tm_partners_wrap .owl-carousel');
-  	carusel3.owlCarousel({
-		loop:true,
-		margin:40,
-		autoplay:6000,
-		autoWidth: false,
-		nav: false,
-		items:4,
-		smartSpeed:3000,
-		responsive:{
-			0:{items:1},
-			480:{items:2},
-			768:{items:3},
-			1040:{items:4},
-            1400:{items:5},
-			1600:{items:6},
-			1925:{items:7},
-            2300:{items:8}
-		}
-	});
-}
+//	var carusel3			= jQuery('.inedi_tm_partners_wrap .owl-carousel');
+//  	carusel3.owlCarousel({
+//		loop:true,
+//		margin:40,
+//		autoplay:6000,
+//		autoWidth: false,
+//		nav: false,
+//		items:4,
+//		smartSpeed:3000,
+//		responsive:{
+//			0:{items:1},
+//			480:{items:2},
+//			768:{items:3},
+//			1040:{items:4},
+//            1400:{items:5},
+//			1600:{items:6},
+//			1925:{items:7},
+//            2300:{items:8}
+//		}
+//	});
+//}
 
 // -----------------------------------------------------
 // --------------------    WOW JS    -------------------

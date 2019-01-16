@@ -441,6 +441,7 @@ input[type="button"]{
 .xcon-dollar:before { content: '\f155'; } /* '' */
 .xcon-thumbs-up-alt:before { content: '\f164'; } /* '' */
 .xcon-thumbs-down-alt:before { content: '\f165'; } /* '' */
+
 .xcon-youtube-play:before { content: '\f16a'; } /* '' */
 .xcon-instagram:before { content: '\f16d'; } /* '' */
 .xcon-tumblr:before { content: '\f173'; } /* '' */

@@ -26,16 +26,18 @@ html {
 	padding: 0px;
 	margin: 0px
 }
-body{
-	font-family: "Open Sans";
-	font-size: 14px;
-	line-height: 1.8;
-	letter-spacing: 0.5px;
-	word-wrap: break-word;
-	font-weight: 400;
-	background-color: #000000;
-    color:white;
+body {
+    /*font-family: "Open Sans";*/
+    font-family: "Montserrat";
+    font-size: 14px;
+    line-height: 1.8;
+    letter-spacing: 0.5px;
+    word-wrap: break-word;
+    font-weight: 400;
+    background-color: #000000;
+    color: #eee;
 }
+
 
 a{
     color:white;
@@ -548,7 +550,8 @@ img.svg{
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */ 
 }
-.inedi_tm_main_title_holder_wrap{
+
+    .inedi_tm_main_title_holder_wrap{
 	/**/width: 100%;
 	height: auto;
 	clear: both;
@@ -622,12 +625,17 @@ img.svg{
     -moz-box-sizing: border-box; /* Firefox, other Gecko */
     box-sizing: border-box; /* Opera/IE 8+ */
 }
-.inedi_tm_about_wrap .rightbox .name_holder{margin-bottom: 25px;}
-.inedi_tm_about_wrap .rightbox .name_holder h3{color: #fff;}
-.inedi_tm_about_wrap .rightbox .definition p{
-	color: #eee;
-	margin-bottom: 20px;
+.inedi_tm_about_wrap .rightbox .name_holder{margin-bottom: 19px;}
+.inedi_tm_about_wrap .rightbox .name_holder h3{
+    color: #fff; 
+    font-size: 24px;
+
 }
+    .inedi_tm_about_wrap .rightbox .definition p {
+        color: #eee;
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
     .inedi_tm_about_wrap .rightbox .definition span {
         font-weight:bold;
         color: #eee
@@ -853,6 +861,7 @@ img.svg{
 .inedi_tm_services_wrap ul.total li:hover .inner_list .second:after{height: 20px;}
 .inedi_tm_services_wrap ul.total li:hover .inner_list .second:before{width: 20px;}
 .inedi_tm_services_wrap .service_title{margin-bottom: 20px;}
+
 .inedi_tm_services_wrap .service_title h3{
 	font-size: 20px;
 	color: #fff;

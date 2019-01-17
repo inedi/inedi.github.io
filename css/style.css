@@ -362,7 +362,7 @@ img.svg{
 .inedi_tm_trigger .hamburger{
 	padding: 0px;
 	height: 100%;
-	display: table-cell;
+	/*display: table-cell;*/
 	vertical-align: middle;
 }
 .inedi_tm_trigger .hamburger-box{display: block;}
@@ -1803,7 +1803,7 @@ img.svg{
     .inedi_tm_list_wrap[data-column="6"] ul.total > li{width: 16.6666%;}
 }
 @media (max-width: 1040px) {
-	.inedi_tm_trigger{display: block;}
+	.inedi_tm_trigger{display: block; height:100%;}
 	.inedi_tm_navigation_wrap .nav_list_wrap{display: none;}
 	.inedi_tm_navigation_wrap .logo{position: relative;top:-1px;}
 	.inedi_tm_navigation_wrap{padding: 24px 0px;background-color: rgba(0,0,0,.75);}

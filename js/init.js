@@ -95,6 +95,13 @@ function inedi_tm_hamburger(){
 		return false;
     });
 
+    mobileMenu.on('click', function () {
+        var element = jQuery(this);
+            hamburger.removeClass('is-active');
+            mobileMenu.slideUp();
+        return false;
+
+    });
 }
 
 // -----------------------------------------------------

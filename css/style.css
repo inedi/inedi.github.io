@@ -261,7 +261,7 @@ img.svg{
 	margin: 0px;
 	list-style-type: none;
 }
-.inedi_tm_mobile_menu_wrap .mob_menu > ul > li{margin: 0px 0px 10px 0px;}
+.inedi_tm_mobile_menu_wrap .mob_menu > ul > li{padding:5px;}
 .inedi_tm_mobile_menu_wrap .mob_menu > ul > li:last-child{margin-bottom: 0px;}
 .inedi_tm_mobile_menu_wrap .mob_menu > ul > li a{
 	text-decoration: none;
@@ -269,7 +269,10 @@ img.svg{
 	font-family: "Montserrat";
 	font-weight: 600;
 	font-size: 20px;
+    display:flex;
 }
+
+.inedi_tm_mobile_menu_wrap .mob_menu > ul > li a:hover{color:#ed2629}
 
 /*---------------------------------------------------*/
 /*	04) inedi HAMBURGER
@@ -481,7 +484,7 @@ img.svg{
 	position: absolute;
 	z-index: 333;
 	right: 40px;
-	bottom: 100px;
+	bottom: 120px;
 	transform: rotate(-90deg);
 }
 .inedi_tm_discover_wrap a{
@@ -1092,7 +1095,7 @@ img.svg{
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */ 
 }
-.inedi_tm_universal_box_wrap .overlay_image.testimonial{background-image: url(..//img/jarallax/2.jpg);}
+.inedi_tm_universal_box_wrap .overlay_image.contact{background-image: url(..//img/jarallax/2.jpg);}
 .inedi_tm_universal_box_wrap .overlay_color.testimonial{background-color: rgba(0,0,0,.5);}
 .inedi_tm_universal_box_wrap .content.testimonial{padding-bottom: 80px;}
 

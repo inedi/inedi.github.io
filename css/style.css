@@ -44,6 +44,10 @@ a{
 }
 a:hover{color: #ed2629;}
 
+.redI {
+    color: #ed2629;
+}
+
 svg{
 	fill: currentcolor;
 	width: 15px;
@@ -602,6 +606,27 @@ img.svg{
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */ 
 }
+
+.inedi_tm_about_wrap .read_more a {
+    color: #fff;
+    text-decoration: none;
+    background-color: #ed2629;
+    padding: 8px 35px;
+    display: inline-block;
+    font-family: "Montserrat";
+    font-weight: 500;
+    border-radius: 3px;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+    .inedi_tm_about_wrap .read_more a:hover {
+        background-color: #262626;
+    }
+
 .inedi_tm_about_wrap .leftbox{
 	width: 31.5%;
 	float: right;
@@ -625,7 +650,7 @@ img.svg{
     -moz-box-sizing: border-box; /* Firefox, other Gecko */
     box-sizing: border-box; /* Opera/IE 8+ */
 }
-.inedi_tm_about_wrap .rightbox .name_holder{margin-bottom: 19px;}
+.inedi_tm_about_wrap .rightbox .name_holder{margin-bottom: 18px;}
 .inedi_tm_about_wrap .rightbox .name_holder h3{
     color: #fff; 
     font-size: 24px;
@@ -637,8 +662,8 @@ img.svg{
         margin-bottom: 30px;
     }
     .inedi_tm_about_wrap .rightbox .definition span {
-        font-weight:bold;
-        color: #eee
+        font-style: italic;
+        font-size: 14px;
     } 
 
 .inedi_tm_about_wrap .rightbox .iconbox ul{

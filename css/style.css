@@ -39,8 +39,14 @@ body {
 }
 
 
-a{
-    color:white;
+a {
+    color: white;
+
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
 }
 a:hover{color: #ed2629;}
 
@@ -997,11 +1003,7 @@ img.svg{
 	position: relative;
 	top: 0px;
 	
-	-webkit-transition: all .3s ease;
-	   -moz-transition: all .3s ease;
-	    -ms-transition: all .3s ease;
-	     -o-transition: all .3s ease;
-	        transition: all .3s ease;
+
 }
 .inedi_tm_portfolio_list .list_inner .image_wrap .main_image{
 	position: absolute;
@@ -1014,7 +1016,29 @@ img.svg{
 	background-position: center;
     
 }
-.inedi_tm_portfolio_list > li:nth-child(1) .image_wrap .main_image{background-image: url(..//img/portfolio/1.jpg);}
+
+.portfolio_item_Title {
+    position: absolute;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 100%;
+    text-align: center;
+    padding: 25px 0px;
+}
+
+.portfolio_item_Title span{
+    text-decoration: none;
+    
+	display: block;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 15px;
+	position: relative;
+}
+
+./*inedi_tm_portfolio_list > li:nth-child(1) .image_wrap .main_image {
+    background-image: url(..//img/portfolio/1.jpg);
+}
 .inedi_tm_portfolio_list > li:nth-child(2) .image_wrap .main_image{background-image: url(..//img/portfolio/L.jpg);}
 .inedi_tm_portfolio_list > li:nth-child(3) .image_wrap .main_image{background-image: url(..//img/portfolio/mos-470x350_c.png);}
 .inedi_tm_portfolio_list > li:nth-child(4) .image_wrap .main_image{background-image: url(..//img/portfolio/iPad-Smart-home-preview.png);}
@@ -1034,9 +1058,9 @@ img.svg{
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 				
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
-			box-sizing: border-box; /* Opera/IE 8+ */ 
+	-webkit-box-sizing: border-box; 
+	   -moz-box-sizing: border-box;
+			box-sizing: border-box; 
 }
 .inedi_tm_portfolio_list .list_inner .definition_portfolio .first{
 	color: #FFFFFF;
@@ -1071,7 +1095,7 @@ img.svg{
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.inedi_tm_portfolio_list .list_inner .definition_portfolio .first a:hover{color: #ed2629;}
+.inedi_tm_portfolio_list .list_inner .definition_portfolio .first a:hover{color: #ed2629;}*/
 
 /*---------------------------------------------------*/
 /*	09) inedi CLIENTS

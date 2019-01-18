@@ -11,7 +11,7 @@
 	inedi_tm_magnific_popup();
 	inedi_tm_jarallax();
 	inedi_tm_portfolio();
-	inedi_tm_portfolio_animation();
+	//inedi_tm_portfolio_animation();
 	inedi_tm_totop();
 	inedi_tm_totop_myhide();
 	inedi_tm_nav_bg_scroll();
@@ -216,32 +216,37 @@ function inedi_tm_portfolio(){
 	}
 }
 
-function inedi_tm_portfolio_animation(){
+//function inedi_tm_portfolio_animation(){
 	
-	"use strict";
+//	"use strict";
 	
-	var list			= jQuery('.inedi_tm_portfolio_list > li');
+//	var list			= jQuery('.inedi_tm_portfolio_list > li');
 	
-	list.each(function(){
-		var el			= jQuery(this);
-		var el2			= el.find('.list_inner');
-		var image		= el.find('.image_wrap');
-		var definition	= el.find('.definition_portfolio');
-		var definitionH	= el.find('.definition_portfolio').outerHeight();
+//	list.each(function(){
+//		var el			= jQuery(this);
+//		var el2			= el.find('.list_inner');
+//		var image		= el.find('.image_wrap');
+//        var definition = el.find('.definition_portfolio');
+
+     
+
+//		var definitionH	= el.find('.definition_portfolio').outerHeight();
+
+       
 		
-		el2.each(function(){
-			var el3			= jQuery(this);
-			el3.on('mouseenter',function(){
-				image.css({top:-definitionH/2});
-				definition.css({marginTop:-definitionH});
-			}).on('mouseleave',function(){
-				image.css({top:0});
-				definition.css({marginTop:0});
-			});
-			
-		});
-	});
-}
+//			el2.on('mouseenter',function(){
+//				image.css({top:-definitionH/2});
+//				definition.css({marginTop:-definitionH});
+//			}).on('mouseleave',function(){
+//				image.css({top:0});
+//				definition.css({marginTop:0});
+//			});
+           
+        
+        
+//    });
+
+//}
 
 // -----------------------------------------------------
 // --------------------    TOTOP    --------------------

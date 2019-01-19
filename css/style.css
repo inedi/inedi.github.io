@@ -1252,16 +1252,16 @@ img.svg{
 .inedi_tm_news_wrap .image_wrap{
     position: relative; 
 
-    -webkit-transition: all .3s ease;
+    /*-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
 	    -ms-transition: all .3s ease;
 	     -o-transition: all .3s ease;
-	        transition: all .3s ease;
+	        transition: all .3s ease;*/
 }
-.inedi_tm_news_wrap .image_wrap:hover{
+/*.inedi_tm_news_wrap .image_wrap:hover{
     
     transform: scale(1.1);
-}
+}*/
 
 .inedi_tm_news_wrap .image_wrap .big{display: none;}
 .inedi_tm_news_wrap .image_wrap .bestpreview{

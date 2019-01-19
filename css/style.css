@@ -942,6 +942,7 @@ img.svg{
 	margin:0px 55px 13px 0px;
 }
 .inedi_tm_portfolio_filter li:last-child{margin-right: 0px;}
+
 .inedi_tm_portfolio_filter li a{
 	text-decoration:none;
 	font-size:14px;
@@ -958,6 +959,7 @@ img.svg{
 	        transition: all .3s ease;
 }
 .inedi_tm_portfolio_filter li a.current{color: #ed2629;}
+.inedi_tm_portfolio_filter li a:hover{color: #ed2629;}
 
 /* PORTFOLIO LIST */
 
@@ -980,9 +982,10 @@ img.svg{
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
 }
+
 .inedi_tm_portfolio_list .list_inner{
-	width: 100%;
-	height: auto;
+	width:100%;
+    height:100%;
 	clear: both;
 	float: left;
 	position: relative;
@@ -999,22 +1002,22 @@ img.svg{
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
 }
+
+.inedi_tm_portfolio_list .list_inner:hover{
+    color: #ed2629;
+ }
+
 .inedi_tm_portfolio_list .list_inner .image_wrap{
 	position: relative;
-	top: 0px;
-	
 
+    -webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+	    -ms-transition: all .3s ease;
+	     -o-transition: all .3s ease;
+	        transition: all .3s ease;
 }
-.inedi_tm_portfolio_list .list_inner .image_wrap .main_image{
-	position: absolute;
-	top: 0px;
-	bottom: 0px;
-	left: 0px;
-	right: 0px;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-    
+.inedi_tm_portfolio_list .list_inner .image_wrap:hover{
+    transform: scale(1.1);
 }
 
 .portfolio_item_Title {
@@ -1024,6 +1027,7 @@ img.svg{
     width: 100%;
     text-align: center;
     padding: 25px 0px;
+    pointer-events: none;
 }
 
 .portfolio_item_Title span{
@@ -1242,13 +1246,26 @@ img.svg{
 .inedi_tm_news_wrap .inedi_tm_list_wrap .inner_list{
 	background-color: #101010;
     border-radius: 3px;
+    overflow: hidden;
 }
 .inedi_tm_news_wrap .definitions_wrap{padding: 40px 30px 47px 30px;}
-.inedi_tm_news_wrap .image_wrap{position: relative;}
+.inedi_tm_news_wrap .image_wrap{
+    position: relative; 
+
+    -webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+	    -ms-transition: all .3s ease;
+	     -o-transition: all .3s ease;
+	        transition: all .3s ease;
+}
+.inedi_tm_news_wrap .image_wrap:hover{
+    
+    transform: scale(1.1);
+}
+
 .inedi_tm_news_wrap .image_wrap .big{display: none;}
 .inedi_tm_news_wrap .image_wrap .bestpreview{
     display: block;
-
 }
 .inedi_tm_news_wrap .news_image{
 	position: absolute;

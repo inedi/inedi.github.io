@@ -41,7 +41,7 @@ body {
 
 a {
     color: #FFF;
-
+    text-decoration: none;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
     -ms-transition: all .3s ease;
@@ -636,18 +636,18 @@ img.svg{
         background-color: #262626;
     }
 
-.inedi_tm_about_wrap .leftbox{
-	width: 31.5%;
-	float: right;
-	height: auto;
-	position: absolute;
-	top:0;
-	right:0;
-	bottom:0;
-	background-image: url(..//img/about/1.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
+.inedi_tm_about_wrap .leftbox {
+    width: 31.5%;
+    float: right;
+    height: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(..//img/background/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 
@@ -1542,17 +1542,130 @@ img.svg{
 /*	13) inedi CONTACT
 /*---------------------------------------------------*/
 
+.phoneimg {
+    background-image: url(..//img/background/phone.png);
+    background-repeat: no-repeat;
+    width:195px;
+    height:19px;
+    margin-bottom:2px;
+}
 
-.inedi_tm_contact_wrap{
-	max-width: 830px;
+.inedi_tm_contact_wrap {
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+    margin-bottom: 80px;
+    position: relative;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box; /* Firefox, other Gecko */
+    box-sizing: border-box; /* Opera/IE 8+ */
+}
+
+.inedi_tm_contact_wrap .author_wrap{
+	width: 100%;
 	height: auto;
-	margin: 0 auto;
+	clear: both;
+	float: left;
+	position: relative;
 	
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
-			box-sizing: border-box; /* Opera/IE 8+ */
+			box-sizing: border-box; /* Opera/IE 8+ */ 
 }
-.inedi_tm_main_title_holder.contact{padding-bottom: 65px;}
+
+.inedi_tm_contact_wrap .read_more a {
+    color: #FFF;
+    text-decoration: none;
+    background-color: #ed2629;
+    padding: 8px 35px;
+    display: inline-block;
+    font-family: "Montserrat";
+    font-weight: 500;
+    border-radius: 3px;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+    .inedi_tm_contact_wrap .read_more a:hover {
+        background-color: #262626;
+    }
+
+    .inedi_tm_contact_wrap .leftbox {
+        width: 31.5%;
+        height: auto;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        background-image: url(..//img/background/grd.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        float: left;
+        right: auto;
+        left: 0;
+    }
+
+
+.inedi_tm_contact_wrap .rightbox {
+    width: 68.5%;
+    float: right;
+    padding-right: 0;
+    padding-left: 30px;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box; /* Firefox, other Gecko */
+    box-sizing: border-box; /* Opera/IE 8+ */
+}
+
+
+.inedi_tm_contact_wrap .rightbox .name_holder{margin-bottom: 18px;}
+.inedi_tm_contact_wrap .rightbox .name_holder h3{
+    color: #FFF; 
+    font-size: 24px;
+
+}
+    .inedi_tm_contact_wrap .rightbox .definition p {
+        color: #eee;
+        font-size: 20px;
+        font-weight:600;
+        margin-bottom: 20px;
+    }
+    .inedi_tm_contact_wrap .rightbox .definition span {
+        font-style: italic;
+        font-size: 20px;
+    }
+
+.inedi_tm_contact_wrap .rightbox .iconbox ul {
+    margin: 0;
+    list-style-type: none;
+}
+.inedi_tm_contact_wrap .rightbox .iconbox ul li{
+	margin: 0 9px 0 0;
+	display: inline-block;
+}
+.inedi_tm_contact_wrap .rightbox .iconbox ul li span{
+	color: #FFF;
+	padding-right: 12px;
+	font-size: 16px;
+}
+.inedi_tm_contact_wrap .rightbox .iconbox ul li a{
+	text-decoration: none;
+	color: #FFF;
+	font-size: 24px;
+	
+	-webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+	    -ms-transition: all .3s ease;
+	     -o-transition: all .3s ease;
+	        transition: all .3s ease;
+}
+.inedi_tm_contact_wrap .rightbox .iconbox ul li a:hover{color: #ed2629;}
+
+
+/*.inedi_tm_main_title_holder.contact{padding-bottom: 65px;}
 .inedi_tm_contact_wrap .subtitle{
 	text-align: center;
 	margin-bottom: 69px;
@@ -1567,9 +1680,9 @@ img.svg{
 	float: left;
 	padding: 0 10px;
 	
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
-			box-sizing: border-box; /* Opera/IE 8+ */
+	-webkit-box-sizing: border-box; 
+	   -moz-box-sizing: border-box; 
+			box-sizing: border-box; 
 }
 .inedi_tm_contact_wrap .main_input_wrap .wrap{margin-bottom: 30px;}
 .inedi_tm_contact_wrap .main_input_wrap .wrap input{
@@ -1629,7 +1742,7 @@ img.svg{
 	color:#0064FF;
 	margin-bottom: 7px;
 	text-align: center;
-}
+}*/
 
 /*---------------------------------------------------*/
 /*	14) inedi FOOTER
@@ -1781,6 +1894,7 @@ img.svg{
 }
 @media (max-width: 1200px) {
 	.inedi_tm_about_wrap .rightbox{padding: 0 70px 0 0;}
+    .inedi_tm_contact_wrap .rightbox{padding: 0 70px 0 30px;}
 	.inedi_tm_list_wrap[data-column="5"] ul.total > li{width: 25%;}
     .inedi_tm_list_wrap[data-column="6"] ul.total > li{width: 16.6666%;}
 }
@@ -1792,6 +1906,7 @@ img.svg{
 	.inedi_tm_list_wrap[data-column="5"] ul.total > li{width: 33.3333%;}
     .inedi_tm_list_wrap[data-column="6"] ul.total > li{width: 25%;}
 	.inedi_tm_about_wrap .rightbox{padding: 0 50px 0 0;}
+    .inedi_tm_contact_wrap .rightbox{padding: 0 50px 0 30px;}
 	.inedi_tm_hero_header .hero_title .first{font-size: 42px;}
 	.inedi_tm_universal_box_wrap .hero_title.homepage_third h3{font-size: 42px;}
 	.inedi_tm_animation_text_word{font-size: 18px;}
@@ -1808,7 +1923,9 @@ img.svg{
 
 @media (max-width: 768px) {
 	.inedi_tm_about_wrap .leftbox{display: none;}
+    .inedi_tm_contact_wrap .leftbox{display: none;}
 	.inedi_tm_about_wrap .rightbox{width: 100%;padding: 0;}
+    .inedi_tm_contact_wrap .rightbox{width: 100%;padding: 0;}
 	.inedi_tm_list_wrap[data-column="3"] ul.total > li{width: 50%;}
 	.inedi_tm_list_wrap[data-column="4"] ul.total > li{width: 50%;}
 	.inedi_tm_list_wrap[data-column="5"] ul.total > li{width: 50%;}
@@ -1828,8 +1945,10 @@ img.svg{
     .inedi_tm_animation_text_404{font-size: 17px;}
 	.inedi_tm_main_demos_list_wrap ul li{width: 50%;}
 	.inedi_tm_about_wrap.homepage_second .rightbox{padding-left: 0;}
+    .inedi_tm_contact_wrap .rightbox{padding-left: 0;}
 }
 @media (max-width: 480px) {
+    .inedi_tm_contact_wrap .rightbox .definition p {font-size:18px;}
 	.inedi_tm_top_bar_wrap ul li{margin: 0;}
 	.inedi_tm_list_wrap[data-column="2"] ul.total > li{width: 100%;}
 	.inedi_tm_list_wrap[data-column="3"] ul.total > li{width: 100%;}

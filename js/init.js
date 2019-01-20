@@ -2,22 +2,17 @@
 
 	"use strict";
 	
-	
-	
 	// here all ready functions
-	
+
 	inedi_tm_hamburger();
 	inedi_tm_imgtosvg();
 	inedi_tm_magnific_popup();
 	inedi_tm_jarallax();
 	inedi_tm_portfolio();
-	//inedi_tm_portfolio_animation();
 	inedi_tm_totop();
 	inedi_tm_totop_myhide();
 	inedi_tm_nav_bg_scroll();
 	inedi_tm_anchor();
-	//inedi_tm_contact_form();
-	//inedi_tm_owl_carousel();
     inedi_tm_text_animation();
     inedi_tm_animate_text();
     inedi_tm_animate_text_404();
@@ -216,29 +211,6 @@ function inedi_tm_portfolio(){
 	}
 }
 
-//function inedi_tm_portfolio_animation(){
-	
-//	"use strict";
-	
-//	var list			= jQuery('.inedi_tm_portfolio_list > li');
-	
-//	list.each(function(){
-//		var el			= jQuery(this);
-//		var el2			= el.find('.list_inner');
-//		var image		= el.find('.image_wrap');
-		
-//			el2.on('mouseenter',function(){
-//				//image.css({top:-definitionH/2});
-//                image.css({margin:-30});
-//			}).on('mouseleave',function(){
-//				//image.css({top:0});
-//                image.css({margin:0});
-//			});
-        
-//    });
-
-//}
-
 
 // -----------------------------------------------------
 // --------------------    TOTOP    --------------------
@@ -320,100 +292,7 @@ function inedi_tm_anchor(){
 	});
 }
 
-// -----------------------------------------------------
-// ----------------    CONTACT FORM    -----------------
-// -----------------------------------------------------
 
-function inedi_tm_contact_form(){
-	
-	"use strict";
-	
-	jQuery(".contact_form #send_message").on('click', function(){
-		
-		var name 		= jQuery(".contact_form #name").val();
-		var email 		= jQuery(".contact_form #email").val();
-		var message 	= jQuery(".contact_form #message").val();
-		var subject 	= jQuery(".contact_form #subject").val();
-		var success     = jQuery(".contact_form .returnmessage").data('success');
-	
-		jQuery(".contact_form .returnmessage").empty(); //To empty previous error/success message.
-		//checking for blank fields	
-		if(name===''||email===''||message===''){
-			
-			jQuery('div.empty_notice').slideDown(500).delay(2000).slideUp(500);
-		}
-		else{
-			// Returns successful data submission message when the entered information is stored in database.
-			jQuery.post("modal/contact.php",{ ajax_name: name, ajax_email: email, ajax_message:message, ajax_subject: subject}, function(data) {
-				
-				jQuery(".contact_form .returnmessage").append(data);//Append returned message to message paragraph
-				
-				
-				if(jQuery(".contact_form .returnmessage span.contact_error").length){
-					jQuery(".contact_form .returnmessage").slideDown(500).delay(2000).slideUp(500);		
-				}else{
-					jQuery(".contact_form .returnmessage").append("<span class='contact_success'>"+ success +"</span>");
-					jQuery(".contact_form .returnmessage").slideDown(500).delay(4000).slideUp(500);
-				}
-				
-				if(data===""){
-					jQuery("#contact_form")[0].reset();//To reset form fields on success
-				}
-				
-			});
-		}
-		return false; 
-	});
-}
-
-// -----------------------------------------------------
-// --------------------    OWL CAROUSEL    -------------
-// -----------------------------------------------------
-
-//function inedi_tm_owl_carousel(){
-	
-//	"use strict";
-	
-//	var carusel2			= jQuery('.inedi_tm_testimonial_wrap .owl-carousel');
-//  	carusel2.owlCarousel({
-//		loop:true,
-//		margin:70,
-//		autoplay:7000,
-//		autoWidth: false,
-//		nav: false,
-//		items:3,
-//		smartSpeed:5000,
-//		responsive:{
-//			0:{items:1},
-//			480:{items:2},
-//			768:{items:3},
-//			1040:{items:3},
-//			1600:{items:3},
-//			1920:{items:3}
-//		}
-//	});
-	
-//	var carusel3			= jQuery('.inedi_tm_partners_wrap .owl-carousel');
-//  	carusel3.owlCarousel({
-//		loop:true,
-//		margin:40,
-//		autoplay:6000,
-//		autoWidth: false,
-//		nav: false,
-//		items:4,
-//		smartSpeed:3000,
-//		responsive:{
-//			0:{items:1},
-//			480:{items:2},
-//			768:{items:3},
-//			1040:{items:4},
-//            1400:{items:5},
-//			1600:{items:6},
-//			1925:{items:7},
-//            2300:{items:8}
-//		}
-//	});
-//}
 
 // -----------------------------------------------------
 // --------------------    WOW JS    -------------------

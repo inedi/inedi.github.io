@@ -624,20 +624,28 @@ img.svg{
     box-sizing: border-box;
 }
 .inedi_tm_about_wrap .rightbox .name_holder{margin-bottom: 18px;}
-.inedi_tm_about_wrap .rightbox .name_holder h3{
+.inedi_tm_about_wrap .rightbox .name_holder .about_title{
     color: #FFF; 
     font-size: 24px;
-
+    font-weight: 600;
+    line-height:1.2;
 }
-    .inedi_tm_about_wrap .rightbox .definition p {
-        color: #eee;
-        font-size: 16px;
-        margin-bottom: 30px;
-    }
-    .inedi_tm_about_wrap .rightbox .definition span {
-        font-style: italic;
-        font-size: 14px;
-    } 
+.inedi_tm_about_wrap .rightbox .definition h2{
+    color: #eee;
+    font-size: 16px;
+    font-weight:400;
+    margin-bottom: 30px;
+    line-height:1.8;
+}
+.inedi_tm_about_wrap .rightbox .definition p {
+    color: #eee;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.inedi_tm_about_wrap .rightbox .definition span {
+    font-style: italic;
+    font-size: 14px;
+} 
 .inedi_tm_about_wrap .rightbox .iconbox ul{
 	margin:0;
 	list-style-type: none;

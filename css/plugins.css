@@ -64,7 +64,6 @@ a:hover{text-decoration:none;}
 
 h1, h2, h3, h4, h5, h6{
 	font-weight:600;
-	font-family: "Montserrat";
 	line-height: 1.2;
 }
 h1 { font-size: 45px; }
@@ -143,7 +142,6 @@ textarea{
 	font-size:13px;
 	color:#333;
 	resize:vertical;
-	font-family:"Montserrat";
 	letter-spacing: 1.2px !important;
 	
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
@@ -188,7 +186,6 @@ input[type="color"],
 	-ms-box-sizing: border-box;     /* IE 10 + */
 	box-sizing: border-box;         /* Opera/IE 8+ */
 	
-	font-family:"Montserrat";
 	
 	line-height:1.6;
 	padding:10px!important;

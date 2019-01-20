@@ -27,13 +27,12 @@ html {
 	margin: 0;
 }
 body {
-    /*font-family: "Open Sans";*/
-    font-family: "Montserrat";
+    font-family: 'Montserrat','Segoe UI', sans-serif;
     font-size: 14px;
+    font-weight: 400;
     line-height: 1.8;
     letter-spacing: 0.5px;
     word-wrap: break-word;
-    font-weight: 400;
     background-color: #000000;
     color: #eee;
 }
@@ -196,7 +195,6 @@ img.svg{
 .inedi_tm_navigation_wrap .menu > ul > li a{
 	text-decoration: none;
 	color: #FFF;
-	font-family: "Montserrat";
 	font-size: 16px;
 	font-weight: 600;
 	display: inline-block;
@@ -272,7 +270,6 @@ img.svg{
 .inedi_tm_mobile_menu_wrap .mob_menu > ul > li a{
 	text-decoration: none;
 	color: #FFF;
-	font-family: "Montserrat";
 	font-weight: 600;
 	font-size: 20px;
     display:flex;
@@ -601,7 +598,6 @@ img.svg{
         font-size: 40px;
         font-weight: 700;
         display: inline-block;
-        font-family: "Montserrat";
         line-height: 80px;
     }
 .inedi_tm_about_wrap .author_wrap{
@@ -622,7 +618,6 @@ img.svg{
     background-color: #ed2629;
     padding: 8px 35px;
     display: inline-block;
-    font-family: "Montserrat";
     font-weight: 500;
     border-radius: 3px;
     -webkit-transition: all .3s ease;
@@ -1138,7 +1133,6 @@ img.svg{
     background-color: #ed2629;
     padding: 8px 35px;
     display: inline-block;
-    font-family: "Montserrat";
     font-weight: 500;
     border-radius: 3px;
     -webkit-transition: all .3s ease;
@@ -1222,7 +1216,6 @@ img.svg{
 .inedi_tm_news_wrap .date_wrap{margin-bottom: 16px;}
 .inedi_tm_news_wrap .date_wrap p{
 	color: #eee;
-    font-family: "Montserrat";
     font-weight: 500;
 }
 .inedi_tm_news_wrap .full_def{display: none;}
@@ -1280,7 +1273,6 @@ img.svg{
         background-color: #262626;
         padding: 8px 35px;
         display: inline-block;
-        font-family: "Montserrat";
         font-weight: 500;
         border-radius: 3px;
         -webkit-transition: all .3s ease;
@@ -1341,7 +1333,6 @@ img.svg{
 }
 #inedi_tm_popup_blog .date_wrap p{
 	color: #eee;
-    font-family: "Montserrat";
     font-weight: 600;
 }
 #inedi_tm_popup_blog .date_wrap p a{
@@ -1395,7 +1386,6 @@ img.svg{
 #inedi_tm_popup_blog .title_holder h3{
     line-height: 1.4;
     font-weight: 600;
-    font-family: "Montserrat";
 	color: #FFF;
 }
 #inedi_tm_popup_blog .title_holder h3 a{
@@ -1431,7 +1421,6 @@ img.svg{
     color: #FFF;
     font-size: 15px;
     position: relative;
-    font-family: "Montserrat";
     font-weight: 600;
 	
     -webkit-transition: all .3s ease;
@@ -1523,7 +1512,6 @@ img.svg{
     background-color: #ed2629;
     padding: 8px 35px;
     display: inline-block;
-    font-family: "Montserrat";
     font-weight: 500;
     border-radius: 3px;
 	
@@ -1580,7 +1568,6 @@ img.svg{
     background-color: #ed2629;
     padding: 8px 35px;
     display: inline-block;
-    font-family: "Montserrat";
     font-weight: 500;
     border-radius: 3px;
     -webkit-transition: all .3s ease;
@@ -1665,84 +1652,6 @@ img.svg{
 .inedi_tm_contact_wrap .rightbox .iconbox ul li a:hover{color: #ed2629;}
 
 
-/*.inedi_tm_main_title_holder.contact{padding-bottom: 65px;}
-.inedi_tm_contact_wrap .subtitle{
-	text-align: center;
-	margin-bottom: 69px;
-}
-.inedi_tm_contact_wrap .subtitle p{color: #FFF;}
-.inedi_tm_contact_wrap .main_input_wrap{margin-bottom: 100px;}
-.inedi_tm_contact_wrap .main_input_wrap,
-.inedi_tm_contact_wrap .main_input_wrap .wrap{
-	width: 100%;
-	height: auto;
-	clear: both;
-	float: left;
-	padding: 0 10px;
-	
-	-webkit-box-sizing: border-box; 
-	   -moz-box-sizing: border-box; 
-			box-sizing: border-box; 
-}
-.inedi_tm_contact_wrap .main_input_wrap .wrap{margin-bottom: 30px;}
-.inedi_tm_contact_wrap .main_input_wrap .wrap input{
-	width: 100%;
-	text-align: center;
-	background-color: transparent;
-	border: none;
-	border-bottom: 1px solid rgba(255,255,255,.2);
-	color: #FFF;
-}
-.inedi_tm_contact_wrap .main_input_wrap .wrap input:focus{
-	outline: none;
-	border-bottom-color: #FFF;
-}
-.inedi_tm_contact_wrap .main_input_wrap .wrap textarea{
-	width: 100%;
-	height: 120px;
-	text-align: center;
-	background-color: transparent;
-	border: none;
-	border-bottom: 1px solid rgba(255,255,255,.2);
-	color: #FFF;
-}
-.inedi_tm_contact_wrap .main_input_wrap .wrap textarea:focus{
-	outline: none;
-	border-bottom-color: #FFF;
-}
-.inedi_tm_contact_wrap .inedi_tm_button{text-align: center;}
-.inedi_tm_contact_wrap .inedi_tm_button a{
-	color: #FFF;
-    text-decoration: none;
-    background-color: #ed2629;
-    padding: 8px 35px;
-    display: inline-block;
-    font-family: "Montserrat";
-    font-weight: 500;
-    border-radius: 3px;
-	
-    -webkit-transition: all .3s ease;
-	   -moz-transition: all .3s ease;
-	    -ms-transition: all .3s ease;
-	     -o-transition: all .3s ease;
-	        transition: all .3s ease;
-}
-.inedi_tm_contact_wrap .inedi_tm_button a:hover{background-color: #555;}
-.inedi_tm_contact_wrap .empty_notice {
-    color: #ed2629;
-    margin-bottom: 7px;
-    display: none;
-    text-align: center;
-}
-.inedi_tm_contact_wrap .contact_error {
-    color: #ed2629;
-    text-align: center;
-}
-.inedi_tm_contact_wrap .returnmessage{
-	color:#0064FF;
-	margin-bottom: 7px;
-	text-align: center;
-}*/
 
 /*---------------------------------------------------*/
 /*	14) inedi FOOTER
@@ -1764,7 +1673,6 @@ img.svg{
 .inedi_tm_footer_wrap p a{
 	text-decoration: none;
 	color: #FFF;
-	font-family: "Montserrat";
 	font-weight: 600;
 	
 	-webkit-transition: all .3s ease;
@@ -1840,7 +1748,6 @@ img.svg{
 
 .inedi_tm_hero_header .hero_title .first{
 	color: #FFF;
-	font-family: "Montserrat";
 	font-size: 50px;
 	font-weight: 500;
 	margin-bottom: 30px;

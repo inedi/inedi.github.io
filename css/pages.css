@@ -1,0 +1,12 @@
+﻿@charset "utf-8";
+
+/*---------------------------------------------------*/
+/*	Paralax
+/*---------------------------------------------------*/
+.inedi_tm_universal_box_wrap .overlay_image.terneo_main {
+    background-image: url(..//portfolio/terneo/terneo1.png);
+}
+.inedi_tm_universal_box_wrap .overlay_image.terneo_contact {
+    background-image: url(..//portfolio/terneo/terneoGrey.jpg);
+}
+

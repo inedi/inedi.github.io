@@ -69,10 +69,8 @@ h6 { font-size: 16px; }
     box-sizing: border-box;
 }
 
-    .inedi_pages_header.scroll {
-        background-color: rgba(0,0,0,.8);
-    }
-    .inedi_pages_header.scroll .inedi_tm_navigation_wrap{padding: 10px 0 14px 0;}
+
+   .inedi_pages_header.scroll .inedi_tm_navigation_wrap{padding: 10px 0 14px 0; background-color: rgba(0,0,0,.8);}
 
 /*---------------------------------------------------*/
 /*	Layout

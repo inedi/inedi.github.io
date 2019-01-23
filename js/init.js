@@ -257,7 +257,7 @@ function inedi_tm_nav_bg_scroll(){
     var W = jQuery(window).width();
 
     if (header.length) {
-        if (W > 820) {
+        if (W > 1040) {
             var topOffSet = header.offset().top;
 
             if (topOffSet > 500) {
@@ -269,10 +269,10 @@ function inedi_tm_nav_bg_scroll(){
     } 
 
     if (pagesheader.length) {
-        if (W > 820) {
+        if (W > 1040) {
             var topOffSet = pagesheader.offset().top;
 
-            if (topOffSet > 80) {
+            if (topOffSet > 40) {
                 pagesheader.addClass('scroll');
             } else {
                 pagesheader.removeClass('scroll');

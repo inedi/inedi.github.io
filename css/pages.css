@@ -3,10 +3,120 @@
 /*---------------------------------------------------*/
 /*	Paralax
 /*---------------------------------------------------*/
-.inedi_tm_universal_box_wrap .overlay_image.terneo_main {
+/*.inedi_tm_universal_box_wrap .overlay_image.terneo_main {
     background-image: url(..//portfolio/terneo/terneo1.png);
+}*/
+
+/*---------------------------------------------------*/
+/*	Fonts
+/*---------------------------------------------------*/
+
+.red_line {
+    width: 10px;
+    height: 100%;
+    line-height: 80px;
+    background-color: #ed2629;
+    position: absolute;
 }
-.inedi_tm_universal_box_wrap .overlay_image.terneo_contact {
-    background-image: url(..//portfolio/terneo/terneoGrey.jpg);
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    line-height: 1.2;
+    color: #FFF;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height:80px;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 600;
+}
+h3 { font-size: 30px; }
+h4 { font-size: 24px; }
+h5 { font-size: 20px; }
+h6 { font-size: 16px; }
+
+.p_title_h3 {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+
+/*---------------------------------------------------*/
+/*	Page menu effect
+/*---------------------------------------------------*/
+.inedi_pages_header {
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+    position: fixed;
+    top: 0;
+    z-index: 55;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+    .inedi_pages_header.scroll {
+        background-color: rgba(0,0,0,.8);
+    }
+    .inedi_pages_header.scroll .inedi_tm_navigation_wrap{padding: 10px 0 14px 0;}
+
+/*---------------------------------------------------*/
+/*	Layout
+/*---------------------------------------------------*/
+
+.inedi_tm_section.project {
+    padding-top: 90px;
+}
+
+.title_conteiner {
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+    text-align: left;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-bottom:80px;
+}
+
+.title_wrap {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.block_content {
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+    margin-bottom: 80px;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.block_content img{
+    width:100%;
+}
+
+.page_content {
+    padding-left: 30px;
 }
 

@@ -32,19 +32,40 @@ h1 {
 }
 
 h2 {
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 18px;
+    font-weight: 700;
 }
-h3 { font-size: 30px; }
-h4 { font-size: 24px; }
+h3 {
+    font-size: 24px;
+    margin-bottom: 18px;
+}
+
+.inseotext{
+    color: #EEE;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    line-height: 1.8;
+}
+
+h4 {
+    font-size: 24px;
+}
 h5 { font-size: 20px; }
 h6 { font-size: 16px; }
+
+p {
+    font-size: 16px;
+    color: #EEE;
+    margin-bottom:30px;
+}
 
 .p_title_h3 {
     color: #FFF;
     font-size: 24px;
     font-weight: 600;
     line-height: 1.2;
+    margin-bottom: 18px;
 }
 
 
@@ -68,16 +89,17 @@ h6 { font-size: 16px; }
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
-
-
-   .inedi_pages_header.scroll .inedi_tm_navigation_wrap{padding: 10px 0 14px 0; background-color: rgba(0,0,0,.8);}
+.inedi_pages_header.scroll .inedi_tm_navigation_wrap{
+    padding: 10px 0 14px 0; 
+    background-color: rgba(0,0,0,.8);
+}
 
 /*---------------------------------------------------*/
 /*	Layout
 /*---------------------------------------------------*/
 
-.inedi_tm_section.project {
-    padding-top: 90px;
+.inedi_tm_section.page {
+    padding-top: 134px;
 }
 
 .title_conteiner {
@@ -114,7 +136,27 @@ h6 { font-size: 16px; }
     width:100%;
 }
 
-.page_content {
-    padding-left: 30px;
+.imagebox
+{
+
 }
 
+.rightbox {
+    width: 68.5%;
+    float: right;
+    padding-right: 0;
+    padding-left: 30px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.leftbox {
+    width: 31.5%;
+    float: left;
+    height: auto;
+    top: 0;
+    left: 0;
+    right: auto;
+    bottom: 0;
+}

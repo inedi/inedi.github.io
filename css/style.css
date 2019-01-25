@@ -474,12 +474,11 @@ img.svg{
 .inedi_tm_discover_wrap a:hover{color: #ed2629;}
 .inedi_tm_discover_wrap a:hover:before{color: #ed2629;}
 .inedi_tm_discover_wrap a:before{
-	content: '\f104';
+	content: '\e815';
     position: absolute;
-    bottom: -8px;
     left: -17px;
-    font-family: xcon;
-    font-size: 24px;
+    font-family: inedi;
+    font-size: 14px;
     color: #FFF;
     -webkit-animation: secdownmoving 1000ms linear 0s infinite;
     -o-animation: secdownmoving 1000ms linear 0s infinite;
@@ -1624,12 +1623,12 @@ img.svg{
 .inedi_tm_to_top_wrap a:hover{color: #ed2629;}
 .inedi_tm_to_top_wrap a:hover:before{color: #ed2629;}
 .inedi_tm_to_top_wrap a:before{
-	content: '\f104';
+	content: '\e815';
     position: absolute;
-    bottom: -8px;
+
     left: -17px;
-    font-family: xcon;
-    font-size: 24px;
+    font-family: inedi;
+    font-size: 14px;
     color: #FFF;
     -webkit-animation: secdownmoving 1000ms linear 0s infinite;
     -o-animation: secdownmoving 1000ms linear 0s infinite;

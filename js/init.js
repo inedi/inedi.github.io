@@ -78,8 +78,6 @@ function inedi_tm_hamburger(){
 	var mobileMenu		= jQuery('.inedi_tm_mobile_menu_wrap');
 
     clickArea.on('click',function(){
-
-		
         if (hamburger.hasClass('is-active')){
             hamburger.removeClass('is-active');
 			mobileMenu.slideUp();
@@ -91,11 +89,8 @@ function inedi_tm_hamburger(){
     });
 
     mobileMenu.on('click', function () {
-  
             hamburger.removeClass('is-active');
             mobileMenu.slideUp();
-        return false;
-
     });
 }
 

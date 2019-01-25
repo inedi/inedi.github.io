@@ -54,13 +54,13 @@ h4 {
 h5 { font-size: 20px; }
 h6 { font-size: 16px; }
 
-p {
+.block_content p {
     font-size: 16px;
     color: #EEE;
-    margin-bottom:30px;
+    margin-bottom: 30px;
 }
 
-.p_title_h3 {
+.block_content .p_title_h3 {
     color: #FFF;
     font-size: 24px;
     font-weight: 600;
@@ -94,10 +94,13 @@ p {
     background-color: rgba(0,0,0,.8);
 }
 
+.inedi_tm_navigation_wrap .menu > ul .menu_separator {
+    margin: 0 12px 0 -16px;
+}
+
 /*---------------------------------------------------*/
 /*	Layout
 /*---------------------------------------------------*/
-
 .inedi_tm_section.page {
     padding-top: 134px;
 }
@@ -119,6 +122,9 @@ p {
     display: inline-block;
     margin-left: 30px;
 }
+
+
+
 
 .block_content {
     width: 100%;

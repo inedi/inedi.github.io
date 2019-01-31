@@ -714,9 +714,13 @@ img.svg{
     .inedi_tm_list_wrap.services {
         margin-bottom: 30px;
     }
-.inedi_tm_list_wrap > ul.total{
-	margin:0;
-	list-style-type: none;
+    .inedi_tm_list_wrap.space30 {
+        margin-bottom: -30px;
+    }
+
+.inedi_tm_list_wrap > ul.total {
+    margin: 0;
+    list-style-type: none;
 }
     .inedi_tm_list_wrap > ul.total.service{
         display: flex;

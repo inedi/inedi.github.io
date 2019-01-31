@@ -60,6 +60,10 @@ h6 { font-size: 16px; }
     margin-bottom: 30px;
 }
 
+.block_content .end {
+    margin-bottom: 0px;
+}
+
 .block_content .p_title_h3 {
     color: #FFF;
     font-size: 24px;

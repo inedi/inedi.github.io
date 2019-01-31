@@ -21,16 +21,16 @@ Site v 3.0
 
 - [x] Torneo
 - [x] Vision
-- [x] MediaPoint
+- [-] MediaPoint
 - [ ] Inreado
 - [ ] Boening Black
-- [ ] Boening Thnomini
+- [ ] Boening Tehnomini
 - [ ] Boening Analog
 - [ ] Boening пульт спальни
 - [ ] Neohome
 - [ ] Умный дом Ipad
 - [ ] Iridium
-- [/] Киоск навигации
+- [-] Киоск навигации
 - [ ] Киоск выставок
 - [ ] Абу-даби киоск
 - [ ] Лазер

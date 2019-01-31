@@ -21,7 +21,7 @@ Site v 3.0
 
 - [x] Torneo
 - [x] Vision
-- [-] MediaPoint
+- [ ] ... **MediaPoint** *(in progress)*
 - [ ] Inreado
 - [ ] Boening Black
 - [ ] Boening Tehnomini
@@ -30,7 +30,7 @@ Site v 3.0
 - [ ] Neohome
 - [ ] Умный дом Ipad
 - [ ] Iridium
-- [-] Киоск навигации
+- [ ] ...**Киоск навигации** *(in progress)*
 - [ ] Киоск выставок
 - [ ] Абу-даби киоск
 - [ ] Лазер

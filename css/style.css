@@ -212,21 +212,30 @@ img.svg{
 }
 .inedi_tm_navigation_wrap .social_icons_wrap > ul > li a:hover{color: #ed2629;}
 
+.anchor_nav{
+    text-align: right;
+    margin-right: -20px;
+}
+
+.logo_menu {
+    text-align: left;
+    position: absolute;
+}
+
 /*---------------------------------------------------*/
 /*	03) inedi MOBILE MENU
 /*---------------------------------------------------*/
-.inedi_tm_mobile_menu_wrap{
-	width: 100%;
-	height: auto;
-	clear: both;
-	float: left;
-	background-color: rgba(0,0,0,.75);
-	padding: 0 20px 20px 20px;
-	display: none;
-	
-	-webkit-box-sizing: border-box;
-	   -moz-box-sizing: border-box;
-			box-sizing: border-box;
+.inedi_tm_mobile_menu_wrap {
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+    background-color: rgba(0,0,0,.75);
+    padding: 0 20px 20px 20px;
+    display: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 .inedi_tm_mobile_menu_wrap .mob_menu{
 	width: 100%;

@@ -72,7 +72,6 @@ h6 { font-size: 16px; }
     margin-bottom: 18px;
 }
 
-
 /*---------------------------------------------------*/
 /*	Page menu effect
 /*---------------------------------------------------*/
@@ -127,7 +126,6 @@ h6 { font-size: 16px; }
     margin-left: 30px;
 }
 
-
 .block_content {
     width: 100%;
     height: auto;
@@ -143,7 +141,6 @@ h6 { font-size: 16px; }
 .block_content img{
     width:100%;
 }
-
 
 .rightbox {
     width: 68.5%;
@@ -163,4 +160,23 @@ h6 { font-size: 16px; }
     left: 0;
     right: auto;
     bottom: 0;
+}
+
+@media (max-width: 768px) {
+    .block_content .rightbox{width: 100%;padding: 0;}
+    .block_content .leftbox{display: none;}
+
+    .title_conteiner .title_wrap h1 {font-size: 36px; line-height: 70px;}
+    .title_conteiner .title_wrap h2 {font-size: 17px; }
+}
+
+
+@media (max-width: 480px) {
+    .title_conteiner .title_wrap h1 {font-size: 32px; line-height: 60px;}
+    .title_conteiner .title_wrap h2 {font-size: 14px}
+
+    .block_content h3 {font-size: 20px;}
+    .block_content .p_title_h3 {font-size: 20px;}
+    .block_content p {font-size: 14px;}
+    .block_content .inseotext{font-size: 14px;}
 }

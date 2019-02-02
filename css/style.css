@@ -1750,6 +1750,8 @@ img.svg{
 	.inedi_tm_about_wrap.homepage_second .rightbox{padding-left: 0;}
     .inedi_tm_contact_wrap .rightbox{padding-left: 0;}
 }
+
+
 @media (max-width: 480px) {
     .inedi_tm_contact_wrap .rightbox .definition p {font-size:18px;}
 	.inedi_tm_top_bar_wrap ul li{margin: 0;}
@@ -1758,6 +1760,10 @@ img.svg{
 	.inedi_tm_list_wrap[data-column="4"] ul.total > li{width: 100%;}
 	.inedi_tm_list_wrap[data-column="5"] ul.total > li{width: 100%;}
     .inedi_tm_list_wrap[data-column="6"] ul.total > li{width: 50%;}
+    .inedi_tm_about_wrap .rightbox .name_holder .about_title {font-size: 20px;}
+    .inedi_tm_about_wrap .rightbox .name_holder .about_title {font-size: 20px;}
+    .inedi_tm_about_wrap .rightbox .definition h2 {font-size: 14px;}
+    .inedi_tm_about_wrap .rightbox .definition p {font-size: 14px;}
 	.inedi_tm_portfolio_list{margin-left: 0;}
 	.inedi_tm_portfolio_list > li{width: 100%;padding-left: 0;}
 	.inedi_tm_to_top_wrap{right: 0;}
@@ -1778,4 +1784,5 @@ img.svg{
 	.inedi_tm_main_demos_list_wrap ul{margin-left: 0;}
 	.inedi_tm_main_demos_list_wrap ul li{width: 100%;padding: 0;}
 	.container{padding: 0 20px !important;}
+    
 }	

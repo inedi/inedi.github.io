@@ -717,7 +717,9 @@ img.svg{
     .inedi_tm_list_wrap.space30 {
         margin-bottom: -30px;
     }
-
+    .inedi_tm_list_wrap.clients_list {
+        margin-bottom: 50px;
+    }
 .inedi_tm_list_wrap > ul.total {
     margin: 0;
     list-style-type: none;

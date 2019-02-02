@@ -356,7 +356,7 @@ function inedi_tm_animate_text() {
     var animateSpan = jQuery('.inedi_tm_animation_text_word');
 
     animateSpan.typed({
-        strings: ["App DEVELOPMENT", "UX Engineering", "UI DESIGNERS"],
+        strings: ["Разработка ПО", "GUI Дизайн", "WPF XAML UNITY"],
         loop: true,
         startDelay: 1e3,
         backDelay: 2e3

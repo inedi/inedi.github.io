@@ -550,7 +550,7 @@ img.svg{
 .inedi_tm_main_title_holder_wrap.about{padding-bottom: 80px;}
 .inedi_tm_main_title_holder_wrap.news{padding-bottom: 80px;}
 .inedi_tm_main_title_holder_wrap.portfolio{padding-bottom: 22px;}
-.inedi_tm_main_title_holder_wrap.testimonial{padding-bottom: 80px;}
+.inedi_tm_main_title_holder_wrap.testimonial{padding-bottom: 60px;}
 .inedi_tm_main_title_holder_wrap.contact{padding-bottom: 80px;}
 .inedi_tm_main_title_holder_wrap .number_wrap {
         width: 10px;
@@ -718,7 +718,7 @@ img.svg{
         margin-bottom: -30px;
     }
     .inedi_tm_list_wrap.clients_list {
-        margin-bottom: 50px;
+        margin-bottom: 30px;
     }
 .inedi_tm_list_wrap > ul.total {
     margin: 0;
@@ -1038,7 +1038,7 @@ img.svg{
     text-align:center;
 }
 .inedi_tm_testimonial_wrap .definitions_wrap {
-    padding: 20px 25px 0 25px;
+    padding: 10px 25px 0 25px;
     text-align: center;
 }
 .inedi_tm_testimonial_wrap .image_wrap {
@@ -1078,7 +1078,7 @@ img.svg{
 .inedi_tm_testimonial_wrap .read_more a {
     color: #FFF;
     text-decoration: none;
-    background-color: #ed2629;
+    background-color: #262626;
     padding: 8px 35px;
     display: inline-block;
     font-weight: 500;
@@ -1090,7 +1090,7 @@ img.svg{
     transition: all .3s ease;
 }
 .inedi_tm_testimonial_wrap .read_more a:hover {
-    background-color: #262626;
+    background-color: #ed2629;
 }
 
 /*---------------------------------------------------*/

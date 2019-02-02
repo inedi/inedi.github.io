@@ -14,8 +14,9 @@
 	inedi_tm_nav_bg_scroll();
 	inedi_tm_anchor();
     inedi_tm_text_animation();
-    inedi_tm_animate_text();
     inedi_tm_animate_text_404();
+    inedi_tm_animate_text_ru();
+    inedi_tm_animate_text();
 	//inedi_tm_popupscroll(); nice scroll naher
 	inedi_tm_popup_blog();
 
@@ -356,7 +357,21 @@ function inedi_tm_animate_text() {
     var animateSpan = jQuery('.inedi_tm_animation_text_word');
 
     animateSpan.typed({
-        strings: ["App DEVELOPMENT", "UX Engineering", "UI DESIGNERS", "UWP WPF XAML UNITY 3D"],
+        strings: ["UI DESIGNERS", "App DEVELOPMENT", "UX Engineering",  "UWP WPF XAML UNITY"],
+        loop: true,
+        startDelay: 1e3,
+        backDelay: 2e3
+    });
+}
+
+function inedi_tm_animate_text_ru() {
+
+    "use strict";
+
+    var animateSpan = jQuery('.inedi_tm_animation_text_ru');
+
+    animateSpan.typed({
+        strings: ["Дизайн интерфейсов", "Разработка ПО", "UWP WPF XAML UNITY"],
         loop: true,
         startDelay: 1e3,
         backDelay: 2e3

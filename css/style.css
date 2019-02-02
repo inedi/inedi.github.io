@@ -519,6 +519,9 @@ img.svg{
         transform: translateX(0px);
     }
 }
+
+
+
 /*---------------------------------------------------*/
 /*	06) inedi ABOUT
 /*---------------------------------------------------*/
@@ -1682,6 +1685,14 @@ img.svg{
     font-weight: 500;
     margin-left: 4px;
 }
+
+.inedi_tm_animation_text_ru {
+    color: #ed2629;
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 4px;
+}
+
 .typed-cursor {
     color: #ed2629;
     font-size: 25px;
@@ -1779,7 +1790,7 @@ img.svg{
 	.inedi_tm_main_title_holder_wrap .title_wrap span{font-size: 32px; line-height: 60px;}
 	.inedi_tm_main_title_holder_wrap{padding-bottom: 65px;}
 	.inedi_tm_universal_box_wrap .content.partners{padding: 0 0;}
-	.inedi_tm_hero_header .hero_title .first{font-size: 33px;}
+	.inedi_tm_hero_header .hero_title .first{font-size: 33px; margin-left: 40px}
 	.inedi_tm_universal_box_wrap .hero_title.homepage_third h3{font-size: 20px;}
 	.inedi_tm_universal_box_wrap .hero_title.homepage_third span{font-size: 12px;}
 	.inedi_tm_animation_text_word{font-size: 17px;}

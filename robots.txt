@@ -1,6 +1,6 @@
 User-agent: *
-Disallow: /css
-Disallow: /js
-Disallow: /resources
-Disallow: /img/background
+Disallow: /css/
+Disallow: /js/
+Disallow: /resources/
+Disallow: /img/background/
 Sitemap: https://inediapps.com/sitemap.xml

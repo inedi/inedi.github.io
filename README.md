@@ -18,9 +18,22 @@ Site v 3.0
 * VK баннер 1590*400
 * VK живые обои 1080*1920
 
+### Порядок заливки контента
+https://inediapps.com/portfolio/
+https://dribbble.com/INEDI
+https://www.instagram.com/inediapps/
+https://www.behance.net/inedi
+
+https://vk.com/inediapps
+https://www.facebook.com/inediapps/
+
+через 3е суток
+https://freelansim.ru/freelancers/INEDI
+https://www.freelancer.com/u/lNEDI
+
+
 
 ### Задачи
-- [x] Фрилансим
 - [ ] паралаксы на контакты? паралаксы на портфолио?
 - [ ] **PDF Портфолио**
 - [ ] Блок PDF на все страницы (поэтому не сиправляем футер пока)

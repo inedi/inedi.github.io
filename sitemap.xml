@@ -55,5 +55,9 @@
     <loc>https://inediapps.com/portfolio/finpix.html</loc>
     <changefreq>monthly</changefreq>
   </url>
+  <url>
+    <loc>https://inediapps.com/portfolio/expokiosk.html</loc>
+    <changefreq>monthly</changefreq>
+  </url>
  
 </urlset>

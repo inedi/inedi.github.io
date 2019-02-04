@@ -19,17 +19,17 @@ Site v 3.0
 * VK живые обои 1080*1920
 
 ### Порядок заливки контента
-https://inediapps.com/portfolio/
-https://dribbble.com/INEDI
-https://www.instagram.com/inediapps/
-https://www.behance.net/inedi
+- https://inediapps.com/portfolio/
+- https://dribbble.com/INEDI
+- https://www.instagram.com/inediapps/
+- https://www.behance.net/inedi
 
-https://vk.com/inediapps
-https://www.facebook.com/inediapps/
+- https://vk.com/inediapps
+- https://www.facebook.com/inediapps/
 
 через 3е суток
-https://freelansim.ru/freelancers/INEDI
-https://www.freelancer.com/u/lNEDI
+- https://freelansim.ru/freelancers/INEDI
+- https://www.freelancer.com/u/lNEDI
 
 
 
@@ -51,6 +51,7 @@ https://www.freelancer.com/u/lNEDI
 - [x] Torneo
 - [x] Vision
 - [x] MediaPoint
+- [x] FinPix
 - [ ] Inreado
 - [ ] Boening Black
 - [ ] Boening Tehnomini

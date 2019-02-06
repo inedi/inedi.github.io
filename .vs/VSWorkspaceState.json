@@ -3,8 +3,9 @@
     "",
     "\\css",
     "\\js",
-    "\\portfolio"
+    "\\portfolio",
+    "\\portfolio\\expokiosk"
   ],
-  "SelectedNode": "\\robots.txt",
+  "SelectedNode": "\\portfolio\\expokiosk.html",
   "PreviewInSolutionExplorer": false
 }

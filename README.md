@@ -26,7 +26,7 @@ Site v 3.0
 - [x] Vision
 - [x] MediaPoint
 - [x] FinPix
-- [ ] Inreado
+- [x] Inreado
 - [ ] Boening Black
 - [ ] Boening Tehnomini
 - [ ] Boening Analog

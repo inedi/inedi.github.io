@@ -40,13 +40,15 @@
 
 ### Заголовок в работе
 
+### Описание
+rel="nofollow noreferrer" добавить к ссылкам на заказчикков
 
 
 ## [Dribble](https://dribbble.com/INEDI)
 в описание всегда добаляем ссылки для индексации и популяризации
 Get more:
-<a href="https://www.instagram.com/inediapps/" rel="nofollow noreferrer"> INSTAGRAM </a> 
-<a href="https://inediapps.com/" rel="nofollow noreferrer"> My PORTFOLIO </a>
+<a href="https://www.instagram.com/inediapps/"> INSTAGRAM </a> 
+<a href="https://inediapps.com/"> My PORTFOLIO </a>
 
 
 

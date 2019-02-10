@@ -63,5 +63,13 @@
     <loc>https://inediapps.com/portfolio/hunterhelp.html</loc>
     <changefreq>monthly</changefreq>
   </url>
+  <url>
+    <loc>https://inediapps.com/portfolio/inreado.html</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://inediapps.com/portfolio/balter.html</loc>
+    <changefreq>monthly</changefreq>
+  </url>
 
 </urlset>

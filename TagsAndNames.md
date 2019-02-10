@@ -43,9 +43,12 @@
 
 
 ## [Dribble](https://dribbble.com/INEDI)
-в описание всегда добаляем ссылку на сайт 
-https://inediapps.com/
-для индексации главной
+в описание всегда добаляем ссылки для индексации и популяризации
+Get more:
+<a href="https://www.instagram.com/inediapps/" rel="nofollow noreferrer"> INSTAGRAM </a> 
+<a href="https://inediapps.com/" rel="nofollow noreferrer"> My PORTFOLIO </a>
+
+
 
 * ссылка на инстаграм
 * необходимо какое-то описание на англиском работе 

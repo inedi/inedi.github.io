@@ -78,4 +78,4 @@ https://inediapps.com/
 ## [freelansim](https://freelansim.ru/freelancers/INEDI)
 
 ## [freelancer](https://www.freelancer.com/u/lNEDI)
-в описании к изображению ссылки не работают ?
+нельзя добавлять ссылки на портфолио и контакты

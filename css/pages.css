@@ -71,7 +71,10 @@ h6 { font-size: 16px; }
     line-height: 1.2;
     margin-bottom: 18px;
 }
-
+.block_content .iquote {
+    font-size: 14px;
+    font-style: italic;
+}
 /*---------------------------------------------------*/
 /*	Page menu effect
 /*---------------------------------------------------*/
@@ -170,7 +173,7 @@ video{
 
 @media (max-width: 768px) {
     .block_content .rightbox{width: 100%;padding: 0;}
-    .block_content .leftbox{display: none;}
+    .block_content .leftbox{width: 100%; margin-top: 30px;}
 
     .title_conteiner .title_wrap h1 {font-size: 36px; line-height: 70px;}
     .title_conteiner .title_wrap h2 {font-size: 17px; }

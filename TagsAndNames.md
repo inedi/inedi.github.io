@@ -27,6 +27,10 @@
 - https://freelansim.ru/freelancers/INEDI
 - https://www.freelancer.com/u/lNEDI
 
+так же проверка на субдоменах
+https://inedi.myportfolio.com/
+http://inedi.dribbble.com/
+
 
 # Именование и теги в работах
 ## [INEDIapps.com](https://inediapps.com/)
@@ -50,9 +54,7 @@ Get more:
 <a href="https://www.instagram.com/inediapps/"> INSTAGRAM </a> 
 <a href="https://inediapps.com/"> My PORTFOLIO </a>
 
-
-
-* ссылка на инстаграм
+* добавить тег inedi
 * необходимо какое-то описание на англиском работе 
 
 ##[Instagram](https://www.instagram.com/inediapps/)
@@ -64,6 +66,7 @@ Get more:
 https://inediapps.com/
 для индексации главной
 
+дескриптион заполняем по полной именно он попадает на главную сайта и под поиск можно даже абзацами (см старые работы)
 
 
 ## [VK](https://vk.com/inediapps)

@@ -11,7 +11,7 @@
 * Паралаксы 1920*1080
 * блок PDF 1250*500
 * Beehance баннер 3200*410
-* VK баннер 1590*400
+* VK баннер 1590*400 
 * VK живые обои 1080*1920
 
 ## Порядок заливки контента
@@ -26,6 +26,8 @@
 через 3е суток
 - https://freelansim.ru/freelancers/INEDI
 - https://www.freelancer.com/u/lNEDI
+
+- https://www.reddit.com/user/INEDI
 
 так же проверка на субдоменах
 https://inedi.myportfolio.com/
@@ -51,8 +53,9 @@ rel="nofollow noreferrer" добавить к ссылкам на заказчи
 ## [Dribble](https://dribbble.com/INEDI)
 в описание всегда добаляем ссылки для индексации и популяризации
 Get more:
-<a href="https://www.instagram.com/inediapps/"> INSTAGRAM </a> 
 <a href="https://inediapps.com/"> My PORTFOLIO </a>
+<a href="https://www.instagram.com/inediapps/"> INSTAGRAM </a> 
+
 
 * добавить тег inedi
 * необходимо какое-то описание на англиском работе 

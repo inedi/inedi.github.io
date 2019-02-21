@@ -28,6 +28,7 @@ Site v 3.0
 - [x] FinPix
 - [x] Inreado
 - [ ] Bzzz
+- [ ] мониторинг под office
 - [ ] Boening Black
 - [ ] Boening Tehnomini
 - [ ] Boening Analog

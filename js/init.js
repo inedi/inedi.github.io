@@ -249,7 +249,7 @@ function inedi_tm_nav_bg_scroll(){
 	
     var header = jQuery('.inedi_tm_header');
     var pagesheader = jQuery('.inedi_pages_header');
-    var imglogo = jQuery('.inedi_tm_navigation_wrap .logo_img');
+   // var imglogo = jQuery('.inedi_tm_navigation_wrap .logo_img');
     
     var W = jQuery(window).width();
 
@@ -259,10 +259,10 @@ function inedi_tm_nav_bg_scroll(){
 
             if (topOffSet > 500) {
                 header.addClass('scroll');
-                imglogo.css({ opacity: 1 });
+               // imglogo.css({ opacity: 1 });
             } else {
                 header.removeClass('scroll');  
-                imglogo.css({ opacity: 0 });
+              //  imglogo.css({ opacity: 0 });
             }
         }
     } 
@@ -363,7 +363,7 @@ function inedi_tm_animate_text() {
     var animateSpan = jQuery('.inedi_tm_animation_text_word');
 
     animateSpan.typed({
-        strings: ["UI DESIGNERS", "Apps DEVELOPMENT", "UX Engineering",  "UWP WPF XAML UNITY"],
+        strings: ["UX Engineering", "Apps Development", "UI Designers"],
         loop: true,
         startDelay: 1e3,
         backDelay: 2e3
@@ -377,7 +377,7 @@ function inedi_tm_animate_text_ru() {
     var animateSpan = jQuery('.inedi_tm_animation_text_ru');
 
     animateSpan.typed({
-        strings: ["Дизайн интерфейсов", "Разработка ПО", "UWP WPF XAML UNITY"],
+        strings: ["UI Дизайн", "Юзабилити", "Разработка ПО"],
         loop: true,
         startDelay: 1e3,
         backDelay: 2e3

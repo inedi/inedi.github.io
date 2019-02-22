@@ -148,8 +148,8 @@ img.svg{
 .inedi_tm_header.scroll .inedi_tm_navigation_wrap{padding: 10px 0 14px 0; background-color: rgba(0,0,0,.8);}
 .inedi_tm_navigation_wrap .navigation_inner{position: relative;}
 .inedi_tm_navigation_wrap .logo_img {
-    opacity: 0;
-    /*-webkit-transition: all .2s ease;
+    /*opacity: 0;
+    -webkit-transition: all .2s ease;
     -moz-transition: all .2s ease;
     -ms-transition: all .2s ease;
     -o-transition: all .2s ease;
@@ -1669,19 +1669,21 @@ img.svg{
 /*---------------------------------------------------*/
 /*	16) HOMEPAGE 2
 /*---------------------------------------------------*/
+.inedi_tm_hero_header .hero_title {
+    margin-left: 80px;
+}
 .inedi_tm_hero_header .hero_title .first{
 	color: #FFF;
 	font-size: 50px;
 	font-weight: 500;
-	margin-bottom: 30px;
-    margin-left: 80px;
-	line-height: 1;
+	margin-bottom: 60px;
+	line-height: 1.2;
 	letter-spacing: -1px;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 }
 
 .inedi_tm_hero_header .hero_title .link {
-    margin-left: 80px;
+
     font-size: 18px;
     font-weight: 500;
 }
@@ -1804,8 +1806,9 @@ img.svg{
 	.inedi_tm_main_title_holder_wrap .title_wrap span{font-size: 32px; line-height: 60px;}
 	.inedi_tm_main_title_holder_wrap{padding-bottom: 65px;}
 	.inedi_tm_universal_box_wrap .content.partners{padding: 0 0;}
-	.inedi_tm_hero_header .hero_title .first{font-size: 33px; margin-left: 40px}
-    .inedi_tm_hero_header .hero_title .link{font-size: 14px; margin-left: 40px}
+    .inedi_tm_hero_header .hero_title {margin-left: 30px;}
+	.inedi_tm_hero_header .hero_title .first{font-size: 33px;}
+    .inedi_tm_hero_header .hero_title .link{font-size: 14px;}
 	.inedi_tm_universal_box_wrap .hero_title.homepage_third h3{font-size: 20px;}
 	.inedi_tm_universal_box_wrap .hero_title.homepage_third span{font-size: 12px;}
 	.inedi_tm_animation_text_word{font-size: 17px;}

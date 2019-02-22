@@ -249,7 +249,8 @@ function inedi_tm_nav_bg_scroll(){
 	
     var header = jQuery('.inedi_tm_header');
     var pagesheader = jQuery('.inedi_pages_header');
-
+    var imglogo = jQuery('.inedi_tm_navigation_wrap .logo_img');
+    
     var W = jQuery(window).width();
 
     if (header.length) {
@@ -258,8 +259,10 @@ function inedi_tm_nav_bg_scroll(){
 
             if (topOffSet > 500) {
                 header.addClass('scroll');
+                imglogo.css({ opacity: 1 });
             } else {
                 header.removeClass('scroll');  
+                imglogo.css({ opacity: 0 });
             }
         }
     } 
@@ -275,6 +278,7 @@ function inedi_tm_nav_bg_scroll(){
             }
         }
     } 
+
 }
 
 // -----------------------------------------------------
@@ -321,13 +325,15 @@ function inedi_tm_text_animation(){
 	var H        			= jQuery(window).height();
 	var titleHolder			= jQuery('.inedi_tm_universal_box_wrap .hero_title');
 	var titleHeight			= titleHolder.outerHeight();
-	var headerHeight		= jQuery('.inedi_tm_header').outerHeight();
-	
+    var headerHeight        = jQuery('.inedi_tm_header').outerHeight();
 	var	height				= H/2 + titleHeight/2 - headerHeight;
-	
+
+   //  imglogo.css({ opacity: 0 });
+
 	jQuery(window).on('scroll',function(){
 		var window_offset = jQuery(window).scrollTop();
-		titleHolder.css({opacity:1 - (window_offset/height), marginTop:(window_offset/height)*200});
+        titleHolder.css({ opacity: 1 - (window_offset / height), marginTop: (window_offset / height) * 200 });
+
 	});
 }
 

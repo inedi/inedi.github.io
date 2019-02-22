@@ -147,8 +147,13 @@ img.svg{
 }
 .inedi_tm_header.scroll .inedi_tm_navigation_wrap{padding: 10px 0 14px 0; background-color: rgba(0,0,0,.8);}
 .inedi_tm_navigation_wrap .navigation_inner{position: relative;}
-.inedi_tm_navigation_wrap .logo {
-    
+.inedi_tm_navigation_wrap .logo_img {
+    opacity: 0;
+    /*-webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;*/
 }
 .inedi_tm_navigation_wrap .nav_list_wrap{
 	width: 100%;
@@ -1741,6 +1746,7 @@ img.svg{
 	.inedi_tm_universal_box_wrap .hero_title.homepage_third h3{font-size: 42px;}
 	.inedi_tm_animation_text_word{font-size: 18px;}
     .inedi_tm_animation_text_404{font-size: 18px;}
+    .inedi_tm_navigation_wrap .logo_img {opacity: 1;}
 	#inedi_tm_popup_blog .close{right: 0;}
 }
 

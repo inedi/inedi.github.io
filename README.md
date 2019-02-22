@@ -27,7 +27,6 @@ Site v 3.0
 - [x] MediaPoint
 - [x] FinPix
 - [x] Inreado
-- [ ] Bzzz
 - [ ] мониторинг под office
 - [ ] Boening Black
 - [ ] Boening Tehnomini
@@ -45,8 +44,8 @@ Site v 3.0
 - [ ] Hyterus
 - [x] Hunter Help
 - [ ] Medik
-- [ ] Nitro
-- [ ] TRON
+- [ ] Nitro 
+- [x] TRON
 - [x] Balter
 - [ ] Русьгидро
 - [ ] Чатилка

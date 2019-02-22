@@ -470,11 +470,11 @@ img.svg{
 	position: absolute;
 	z-index: 333;
 	right: 40px;
-	bottom: 40px;
-	
+	bottom: 120px;
+	transform: rotate(-90deg);
 }
 .inedi_tm_discover_wrap a{
-	
+	text-transform: uppercase;
 	text-decoration: none;
 	color: #FFF;
 	position: relative;
@@ -487,7 +487,24 @@ img.svg{
 	        transition: all .3s ease;
 }
 .inedi_tm_discover_wrap a:hover{color: #ed2629;}
-
+.inedi_tm_discover_wrap a:hover:before{color: #ed2629;}
+.inedi_tm_discover_wrap a:before{
+	content: '\e815';
+    position: absolute;
+    left: -17px;
+    font-family: inedi;
+    font-size: 14px;
+    color: #FFF;
+    -webkit-animation: secdownmoving 1000ms linear 0s infinite;
+    -o-animation: secdownmoving 1000ms linear 0s infinite;
+    animation: secdownmoving 1000ms linear 0s infinite;
+	
+	-webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+	    -ms-transition: all .3s ease;
+	     -o-transition: all .3s ease;
+	        transition: all .3s ease;
+}
 @keyframes secdownmoving{
     0%{
         -webkit-transform: translateX(0px);

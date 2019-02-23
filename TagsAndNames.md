@@ -51,6 +51,8 @@ rel="nofollow noreferrer" добавить к ссылкам на заказчи
 
 
 ## [Dribble](https://dribbble.com/INEDI)
+Несколько картинок лучше вставлять отдельными шотами
+
 в описание всегда добаляем ссылки для индексации и популяризации
 Get more:
 <a href="https://inediapps.com/"> PORTFOLIO </a>

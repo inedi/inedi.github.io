@@ -75,6 +75,9 @@
     <loc>https://inediapps.com/portfolio/tron.html</loc>
     <changefreq>monthly</changefreq>
   </url>
-
+  <url>
+    <loc>https://inediapps.com/portfolio/promtdownloader.html</loc>
+    <changefreq>monthly</changefreq>
+  </url>
   
 </urlset>

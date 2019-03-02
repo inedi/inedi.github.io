@@ -139,11 +139,11 @@ img.svg{
 	line-height: 38px;
 	padding: 24px 0;
 	
-	-webkit-transition: all .5s ease;
-	   -moz-transition: all .5s ease;
-	    -ms-transition: all .5s ease;
-	     -o-transition: all .5s ease;
-	        transition: all .5s ease;
+	-webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+	    -ms-transition: all .3s ease;
+	     -o-transition: all .3s ease;
+	        transition: all .3s ease;
 }
 .inedi_tm_header.scroll .inedi_tm_navigation_wrap{padding: 10px 0 14px 0; background-color: rgba(0,0,0,.8);}
 .inedi_tm_navigation_wrap .navigation_inner{position: relative;}

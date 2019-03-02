@@ -33,6 +33,7 @@ https://developers.google.com/search/docs/data-types/article?hl=ru#non-amp
 - [ ] Лазер
 - [ ] Упаковочная машина
 - [ ] голлард  
+- [ ] голлард админка хороший гайд UX
 - [ ] Hyterus
 - [ ] Medik
 - [ ] Nitro 

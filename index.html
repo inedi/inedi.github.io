@@ -6,6 +6,7 @@
 <html lang="en"> 
 <!--<![endif]-->
 <head>
+    
     <meta charset=utf-8>
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="google-site-verification" content="nfigN-v6EARLbjr0Z0s4zknWmMed9i9T5zUQ9CqBcNI" />
@@ -53,6 +54,12 @@
 <body>
     <!-- WRAPPER ALL -->
     <div class="inedi_tm_wrapper_all">
+        <div id="inedi_tm_popup_blog">
+            <div class="container">
+                <div class="inner_popup scrollable"></div>
+            </div>
+            <span class="close"><a href="#"></a></span>
+        </div>
         <!-- MENU -->
         <nav class="inedi_tm_header">
             <div class="inedi_tm_navigation_wrap">
@@ -114,8 +121,10 @@
                 <div class="inedi_tm_hero_header">
                     <div class="inedi_tm_universal_box_wrap">
                         <div class="bg_wrap">
+
                             <div class="overlay_image hero jarallax" data-speed="0"></div> <!--comment for video-->
                             <div class="overlay_video">
+                                <!--<canvas id="canvas"></canvas>-->
                                 <!-- <a id="video" class="youtube-bg" data-property="{videoURL:'https://www.youtube.com/watch...',containment:'#home', showControls:false, autoPlay:true, loop:true, mute:true, startAt:0, opacity:1, quality:'default'}"></a>-->
                             </div>
                             <div class="overlay_color hero"></div><!--for video <div class="overlay_color video"></div> for image  <div class="overlay_color hero"></div>-->
@@ -194,90 +203,90 @@
             <!-- /ABOUT -->
             <!-- BEST -->
             <!--<section class="inedi_tm_section best" id="best">
-        <div class="inedi_tm_news_wrap">
-            <div class="container">
-                <div class="inedi_tm_main_title_holder_wrap news">
-                    <div class="number_wrap"></div>
-                    <div class="title_wrap">
-                        <span>Best works</span>
+            <div class="inedi_tm_news_wrap">
+                <div class="container">
+                    <div class="inedi_tm_main_title_holder_wrap news">
+                        <div class="number_wrap"></div>
+                        <div class="title_wrap">
+                            <span>Best works</span>
+                        </div>
+                    </div>
+                    <div class="inedi_tm_list_wrap blog_list" data-column="3" data-space="30">
+                        <ul class="total">
+                            <li class="wow fadeInUp" data-wow-duration="1s">
+                                <div class="inner_list">
+                                    <div class="image_wrap">
+                                        <a href="index.html">
+                                            <img src="img/best/1.PNG" alt="" />
+                                        </a>
+                                    </div>
+                                    <div class="definitions_wrap">
+                                        <div class="date_wrap">
+                                            <p>May 2018 <a href="index.html">Gollard Vision</a></p>
+                                        </div>
+                                        <div class="title_holder">
+                                            <h3><a href="index.html">Комплекс ПО</a></h3>
+                                        </div>
+                                        <div class="definition">
+                                            <p>4 года сотрудничества, 10 итерраций, 200 окон интерфейса</p>
+                                        </div>
+                                        <div class="read_more">
+                                            <a href="#"><span>Read More</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="1s">
+                                <div class="inner_list">
+                                    <div class="image_wrap">
+                                        <a href="index.html">
+                                            <img src="img/best/1.jpg" alt="" />
+                                        </a>
+                                    </div>
+                                    <div class="definitions_wrap">
+                                        <div class="date_wrap">
+                                            <p>August 2018 <a href="index.html">Hyterus</a></p>
+                                        </div>
+                                        <div class="title_holder">
+                                            <h3><a href="index.html">Система радиосвязи</a></h3>
+                                        </div>
+                                        <div class="definition">
+                                            <p>Дизайн и его реализация в системе диспетчиризации</p>
+                                        </div>
+                                        <div class="read_more">
+                                            <a href="#"><span>Read More</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="1s">
+                                <div class="inner_list">
+                                    <div class="image_wrap">
+                                        <a href="index.html">
+                                            <img src="img/best/3.PNG" alt="" />
+                                        </a>
+                                    </div>
+                                    <div class="definitions_wrap">
+                                        <div class="date_wrap">
+                                            <p>December 2018 <a href="index.html">Большой театр</a></p>
+                                        </div>
+                                        <div class="title_holder">
+                                            <h3><a href="index.html">АРМ билетных продаж</a></h3>
+                                        </div>
+                                        <div class="definition">
+                                            <p>WPF, верстка XAML, интеграция по дизайну заказчика</p>
+                                        </div>
+                                        <div class="read_more">
+                                            <a href="#"><span>Read More</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
                     </div>
                 </div>
-                <div class="inedi_tm_list_wrap blog_list" data-column="3" data-space="30">
-                    <ul class="total">
-                        <li class="wow fadeInUp" data-wow-duration="1s">
-                            <div class="inner_list">
-                                <div class="image_wrap">
-                                    <a href="index.html">
-                                        <img src="img/best/1.PNG" alt="" />
-                                    </a>
-                                </div>
-                                <div class="definitions_wrap">
-                                    <div class="date_wrap">
-                                        <p>May 2018 <a href="index.html">Gollard Vision</a></p>
-                                    </div>
-                                    <div class="title_holder">
-                                        <h3><a href="index.html">Комплекс ПО</a></h3>
-                                    </div>
-                                    <div class="definition">
-                                        <p>4 года сотрудничества, 10 итерраций, 200 окон интерфейса</p>
-                                    </div>
-                                    <div class="read_more">
-                                        <a href="#"><span>Read More</span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="1s">
-                            <div class="inner_list">
-                                <div class="image_wrap">
-                                    <a href="index.html">
-                                        <img src="img/best/1.jpg" alt="" />
-                                    </a>
-                                </div>
-                                <div class="definitions_wrap">
-                                    <div class="date_wrap">
-                                        <p>August 2018 <a href="index.html">Hyterus</a></p>
-                                    </div>
-                                    <div class="title_holder">
-                                        <h3><a href="index.html">Система радиосвязи</a></h3>
-                                    </div>
-                                    <div class="definition">
-                                        <p>Дизайн и его реализация в системе диспетчиризации</p>
-                                    </div>
-                                    <div class="read_more">
-                                        <a href="#"><span>Read More</span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="1s">
-                            <div class="inner_list">
-                                <div class="image_wrap">
-                                    <a href="index.html">
-                                        <img src="img/best/3.PNG" alt="" />
-                                    </a>
-                                </div>
-                                <div class="definitions_wrap">
-                                    <div class="date_wrap">
-                                        <p>December 2018 <a href="index.html">Большой театр</a></p>
-                                    </div>
-                                    <div class="title_holder">
-                                        <h3><a href="index.html">АРМ билетных продаж</a></h3>
-                                    </div>
-                                    <div class="definition">
-                                        <p>WPF, верстка XAML, интеграция по дизайну заказчика</p>
-                                    </div>
-                                    <div class="read_more">
-                                        <a href="#"><span>Read More</span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
             </div>
-        </div>
-    </section>-->
+        </section>-->
             <!-- /BEST -->
             <!-- SERVICES -->
             <section class="inedi_tm_section services" id="services">
@@ -296,14 +305,18 @@
                                         <div class="inner_list">
                                             <div class="service_icon">
                                                 <img class="svg" src="img/svg/Windows_logo.svg" alt="" />
+                                                <img class="big" src="img/services/windows apps.jpg" alt="" />
                                             </div>
                                             <div class="service_title">
-                                                <h3>Winows App</h3>
+                                                <h3><a href="#">Winows App</a></h3>
                                             </div>
                                             <div class="service_definition">
                                                 <p>Разработка бизнес &ndash; ПО.</p>
                                                 <p>Клиент &ndash; серверные решения.</p>
                                                 <p>WPF UWP XAML Telerik.</p>
+                                            </div>
+                                            <div class="full_def">
+                                                <p>Разработка ПО под ключ. Решения на основе технологий .net и .net Core. Десктопное ПО на базе UWP и WPF. Разработка встраиваемых систем на безе Windows Embedded и  Windows 10 IoT. </p>
                                             </div>
                                             <span class="first"></span>
                                             <span class="second"></span>
@@ -348,7 +361,7 @@
                                                 <img class="svg" src="img/svg/UI.svg" alt="" />
                                             </div>
                                             <div class="service_title">
-                                                <h3>UI Design</h3>
+                                                <h3>UI & UX Design</h3>
                                             </div>
                                             <div class="service_definition">
                                                 <p>Только хороший дизайн с продуманым юзабилити, навигацией и компоновкой.</p>
@@ -364,7 +377,7 @@
                                                 <img class="svg" src="img/svg/Touch.svg" alt="" />
                                             </div>
                                             <div class="service_title">
-                                                <h3>Multi-Touch</h3>
+                                                <h3>IoT & Multi-Touch</h3>
                                             </div>
                                             <div class="service_definition">
                                                 <p>Мы делали интерфейсы системы управления яхтами, бортового компьютера, нескольких умных домов и сенсорных киосков, был даже один лазер.</p>
@@ -590,8 +603,8 @@
                                                 <p>Комплексные системы связи Северо&nbsp;&ndash;&nbsp;Запад</p>
                                             </div>
                                             <!--<div class="read_more">
-                                        <a href="#"><span>Посмотреть благодарность</span></a>
-                                    </div>-->
+                                            <a href="#"><span>Посмотреть благодарность</span></a>
+                                        </div>-->
                                         </div>
                                     </div>
                                 </li>

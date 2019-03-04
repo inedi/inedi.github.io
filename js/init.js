@@ -1,4 +1,4 @@
-﻿jQuery(document).ready(function(){
+﻿jQuery(document).ready(function () {
 
 	"use strict";
 	
@@ -17,7 +17,7 @@
     inedi_tm_animate_text_404();
     inedi_tm_animate_text_ru();
     inedi_tm_animate_text();
-	//inedi_tm_popupscroll(); nice scroll naher
+	//inedi_tm_popupscroll();// nice scroll naher
 	inedi_tm_popup_blog();
 
 	
@@ -28,6 +28,7 @@
 	});
 	
 });
+
 
 // -----------------------------------------------------
 // --------------------  FUNCTIONS  --------------------
@@ -390,32 +391,27 @@ function inedi_tm_animate_text_ru() {
 
 function inedi_tm_popup_blog(){
 	"use strict";
-	var li				= jQuery('.inedi_tm_list_wrap.blog_list .inner_list');
+    var li = jQuery('.inedi_tm_list_wrap.services .inner_list');
 	var popupBox		= jQuery('#inedi_tm_popup_blog');
 	var popupInner		= popupBox.find('.inner_popup');
-	var closePopup		= popupBox.find('.close');
+	//var closePopup		= popupBox.find('.close');
 	
 	li.each(function(){
 		var element		= jQuery(this);
-		var button		= element.find('.read_more a,.title_holder a,.link_news');
+        var button = element.find('.service_title a');
 		var html		= element.html();
-		var mainImage	= element.find('.news_image');
-		var imgData		= mainImage.data('url');
-		var title		= element.find('.title_holder h3');
-		var titleHref	= element.find('.title_holder h3 a').html();
-		
-		mainImage.css({backgroundImage: 'url('+imgData+')'});
+		//var title		= element.find('.title_holder h3');
+		//var titleHref	= element.find('.title_holder h3 a').html();
+
 		button.on('click',function(){
 			popupBox.addClass('opened');
 			popupInner.html(html);
-			mainImage = popupInner.find('.news_image');
-			mainImage.css({backgroundImage: 'url('+imgData+')'});
-			title = popupInner.find('.title_holder h3');
-			title.html(titleHref);
+			//title = popupInner.find('.title_holder h3');
+			//title.html(titleHref);
 			return false;
 		});
 	});
-	closePopup.on('click',function(){
+    popupBox.on('click',function(){
 		popupBox.removeClass('opened');
 		popupInner.html('');
 		return false;

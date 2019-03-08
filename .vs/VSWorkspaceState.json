@@ -2,8 +2,12 @@
   "ExpandedNodes": [
     "",
     "\\css",
+    "\\img\\services",
+    "\\img\\togetherblock",
+    "\\info",
+    "\\js",
     "\\portfolio"
   ],
-  "SelectedNode": "\\README.md",
+  "SelectedNode": "\\portfolio\\tron.html",
   "PreviewInSolutionExplorer": false
 }

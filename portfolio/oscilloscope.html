@@ -1,22 +1,22 @@
 ﻿<!DOCTYPE html>
-<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if lt IE 7 ]><html class="ie ie6" lang="ru"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="ru"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="ru"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!-->
-<html lang="en"> 
+<html lang="ru">
 <!--<![endif]-->
 <head>
     <meta charset=utf-8>
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta name="keywords" content="WPF, UI, GUI, UX, Design, XAML, UWP, unity3d, apps, iOS, android, interface, mobile, development" />
-    <meta name="description" content="INEDI Apps development UI Designers UX Engineering WPF XAML UNITY3D" />
+    <meta name="keywords" content="ui, design, iot, Встраиваемые системы, осциллограф, embedded, system, touch" />
+    <meta name="description" content="" />
     <meta name="author" content="INEDI" />
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image:src" content="https://inediapps.com/portfolio/vision/site.jpg">
-    <meta property="og:image" content="https://inediapps.com/portfolio/vision/site.jpg">
-    <title>INEDI Portfolio</title>
-    <link rel="canonical" href="https://inediapps.com/portfolio/">
+    <meta name="twitter:image:src" content="https://inediapps.com/portfolio/oscilloscope/oscillograph_green_theme.png">
+    <meta property="og:image" content="https://inediapps.com/portfolio/oscilloscope/oscillograph_green_theme.png">
+    <title>INEDI Дизайн UI осциллографа с сенсорным экраном</title>
+    <link rel="canonical" href="https://inediapps.com/portfolio/oscilloscope.html">
     <!-- STYLES -->
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" />
     <link rel="stylesheet" type="text/css" href="..//css/plugins.css" />
@@ -38,6 +38,11 @@
         "position": 2,
         "name": "Portfolio",
         "item": "https://inediapps.com/portfolio/"
+        },{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Oscilloscope",
+        "item": "https://inediapps.com/portfolio/oscilloscope.html"
         }]
         }
     </script>
@@ -61,10 +66,12 @@
                                         </a>
                                     </li>
                                     <li class="menu_separator"><i class="xcon-right-open"></i></li>
-                                    <li><a href="#">Portfolio</a></li>
+                                    <li><a href="https://inediapps.com/portfolio/">Portfolio</a></li>
+                                    <li class="menu_separator"><i class="xcon-right-open"></i></li>
+                                    <li><a href="#">Oscilloscope</a></li>
                                 </ul>
                                 <ul class="anchor_nav">
-                                    <li><a href="#portfolio"> </a></li>
+                                    <li><a href="#project"> </a></li>
                                     <li><a href="#contact">Contact</a></li>
                                 </ul>
                             </div>
@@ -87,7 +94,8 @@
                 <div class="mob_menu">
                     <ul class="anchor_nav">
                         <li><a href="https://inediapps.com/">Home</a></li>
-                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="https://inediapps.com/portfolio/">Portfolio</a></li>
+                        <li><a href="#project">Oscilloscope</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
@@ -96,144 +104,84 @@
         <!-- /MENU -->
         <!-- CONTENT -->
         <main class="inedi_tm_content">
-            <!-- PORTFOLIO -->
-            <section class="inedi_tm_section page" id="portfolio">
-                <div class="inedi_tm_portfolio_wrap">
-                    <div class="container">
-                        <div class="inedi_tm_main_title_holder_wrap portfolio">
-                            <div class="number_wrap"></div>
-                            <div class="title_wrap">
-                                <span>Portfolio</span>
+            <!-- PROJECT -->
+            <section class="inedi_tm_section page">
+                <div class="container" id="project">
+                    <div class="title_conteiner">
+                        <div class="red_line"></div>
+                        <div class="title_wrap">
+                            <h1>Miniature oscilloscope</h1>
+                            <h2>Дизайн интерфейса осциллографа</h2>
+                        </div>
+                    </div>
+                    <div class="block_content">
+                        <img src="oscilloscope/oscillograph_green_theme.png" />
+                    </div>
+
+                    <div class="block_content">
+                        <div class="rightbox">
+                            <p class="p_title_h3">Задача</p>
+                            <p>Разработать дизайн мобильного приложения для управления терморегуляторами.</p>
+                            <p class="p_title_h3">Заказчик</p>
+                            <p><i class="xcon-globe redI"></i>&nbsp;&nbsp;<a target="_blank" href="http://ds-electronics.ru/ru/about-us/" rel="nofollow noreferrer">ds-electronics.ru</a> — один из ведущих производителей реле напряжения и терморегуляторов в России и странах СНГ.</p>
+                            <p class="p_title_h3">Выполненные работы</p>
+                            <p>
+                                <i class="xcon-ok redI"></i>&nbsp;&nbsp;Прототип компоновки экранов приложения(UX).
+                                <br /><i class="xcon-ok redI"></i>&nbsp;&nbsp;Проектирование навигации.
+                                <br /><i class="xcon-ok redI"></i>&nbsp;&nbsp;Дизайн экранов приложения.
+                                <br /><i class="xcon-ok redI"></i>&nbsp;&nbsp;Создание пака иконок.
+                                <br /><i class="xcon-ok redI"></i>&nbsp;&nbsp;Разработка Guidlines (гайдлайнов) для разработчиков.
+                            </p>
+                            <p class="p_title_h3">Ссылки на проект</p>
+                            <div class="iconbox">
+                                <ul>
+                                    <li class="wow fadeIn" data-wow-duration="1.2s" data-wow-delay="0.6s"><a target="_blank" href="https://itunes.apple.com/ua/app/terneo/id1298591257?mt=8"><i class="xcon-apple"></i></a></li>
+                                    <li class="wow fadeIn" data-wow-duration="1.2s" data-wow-delay="0.4s"><a target="_blank" href="https://play.google.com/store/apps/details?id=com.hmarex.terneo&hl=ru"><i class="xcon-android"></i></a></li>
+                                    <li class="wow fadeIn" data-wow-duration="1.2s" data-wow-delay="0.8s"><a target="_blank" href="https://www.instagram.com/p/BtDwGs6nIU2/?utm_source=ig_web_button_share_sheet"><i class="xcon-instagram"></i></a></li>
+                                    <li class="wow fadeIn" data-wow-duration="1.2s" data-wow-delay="1s"><a target="_blank" href="https://dribbble.com/shots/5881925-Terneo-smart-floor-UI"><i class="xcon-dribbble"></i></a></li>
+                                </ul>
                             </div>
                         </div>
-                        <!--<ul class="inedi_tm_portfolio_filter">
-                            <li class="wow fadeInRight"><a href="#" class="current" data-filter="*">All</a></li>
-                            <li class="wow fadeInRight"><a href="#" data-filter=".development">WPF</a></li>
-                            <li class="wow fadeInRight"><a href="#" data-filter=".photography">Unity</a></li>
-                            <li class="wow fadeInRight"><a href="#" data-filter=".design">Design</a></li>
-                        </ul>-->
+                        <div class="leftbox wow fadeIn">
+                            <img src="terneo/terneomobile1.jpg" />
+                        </div>
+                    </div>
+                    <div class="block_content">
+                        <p class="p_title_h3">Немного скриншотов</p>
+                        <div class="inedi_tm_list_wrap space30" data-column="2" data-space="30">
+                            <ul class="total">
+                                <li>
+                                    <img src="oscilloscope/themes_with_frame.png" />
+                                </li>
+                                <li>
+                                    <img src="oscilloscope/themes_with_frame.png" />
+                                </li>
+                                <li>
+                                    <img src="oscilloscope/themes_with_frame.png" />
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="block_content">
+                        <h3>Guidlines</h3>
+                        <img src="oscilloscope/guidlines.png" />
+                    </div>
+                </div>
+
+            </section>
+            <!-- /PROJECT -->
+            <!--WORKS-->
+            <section class="inedi_tm_section portfolio">
+                <div class="inedi_tm_portfolio_wrap">
+                    <div class="container">
+                        <div class="inedi_tm_main_title_holder_wrap">
+                            <div class="number_wrap"></div>
+                            <div class="title_wrap">
+                                <span>Другие наши работы</span>
+                            </div>
+                        </div>
                         <ul class="inedi_tm_portfolio_list">
-                            <li class="wow fadeIn design" data-wow-duration="1.2s" data-wow-delay="0.1s">
-                                <div class="list_inner">
-                                    <div class="image_wrap">
-                                        <a href="packingmachine.html">
-                                            <img src="..//img/portfolio/packingmachine.jpg" alt="" />
-                                        </a>
-                                    </div>
-                                    <div class="portfolio_item_Title">
-                                        <span>Упаковочная машина</span>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="wow fadeIn design" data-wow-duration="1.2s" data-wow-delay="0.1s">
-                                <div class="list_inner">
-                                    <div class="image_wrap">
-                                        <a href="112.html">
-                                            <img src="..//img/portfolio/112.jpg" alt="" />
-                                        </a>
-                                    </div>
-                                    <div class="portfolio_item_Title">
-                                        <span>Диспетчерская служба</span>
-                                    </div>
-                                </div>
-                            </li>
-                            <!--<li class="wow fadeIn design" data-wow-duration="1.2s" data-wow-delay="0.1s">
-                                <div class="list_inner">
-                                    <div class="image_wrap">
-                                        <a href="nitro.html">
-                                            <img src="..//img/portfolio/nitro.jpg" alt="" />
-                                        </a>
-                                    </div>
-                                    <div class="portfolio_item_Title">
-                                        <span>Бортовой компьютер</span>
-                                    </div>
-                                </div>
-                            </li>-->
-                            <li class="wow fadeIn design" data-wow-duration="1.2s" data-wow-delay="0.1s">
-                                <div class="list_inner">
-                                    <div class="image_wrap">
-                                        <a href="promtdownloader.html">
-                                            <img src="..//img/portfolio/promtdownloader.jpg" alt="" />
-                                        </a>
-                                    </div>
-                                    <div class="portfolio_item_Title">
-                                        <span>Torrent manager</span>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="wow fadeIn development" data-wow-duration="1.2s">
-                                <div class="list_inner">
-                                    <div class="image_wrap">
-                                        <a href="terneo.html">
-                                            <img src="..//img/portfolio/terneo.jpg" alt="" />
-                                        </a>
-                                    </div>
-                                    <div class="portfolio_item_Title">
-                                        <span>Terneo</span>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="wow fadeIn design" data-wow-duration="1.2s" data-wow-delay="0.1s">
-                                <div class="list_inner">
-                                    <div class="image_wrap">
-                                        <a href="mediapoint.html">
-                                            <img src="..//img/portfolio/mediapoint.jpg" alt="" />
-                                        </a>
-                                    </div>
-                                    <div class="portfolio_item_Title">
-                                        <span>MediaPoint</span>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="wow fadeIn development" data-wow-duration="1.2s" data-wow-delay="0.2s">
-                                <div class="list_inner">
-                                    <div class="image_wrap">
-                                        <a href="vision.html">
-                                            <img src="..//img/portfolio/vision.jpg" alt="" />
-                                        </a>
-                                    </div>
-                                    <div class="portfolio_item_Title">
-                                        <span>Vision</span>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="wow fadeIn design" data-wow-duration="1.2s">
-                                <div class="list_inner">
-                                    <div class="image_wrap">
-                                        <a href="finpix.html">
-                                            <img src="..//img/portfolio/finpix.jpg" alt="" />
-                                        </a>
-                                    </div>
-                                    <div class="portfolio_item_Title">
-                                        <span>FinPix</span>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="wow fadeIn development" data-wow-duration="1.2s" data-wow-delay="0.2s">
-                                <div class="list_inner">
-                                    <div class="image_wrap">
-                                        <a href="expokiosk.html">
-                                            <img src="..//img/portfolio/expokiosk.jpg" alt="" />
-                                        </a>
-                                    </div>
-                                    <div class="portfolio_item_Title">
-                                        <span>Expo Touch</span>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="wow fadeIn design" data-wow-duration="1.2s" data-wow-delay="0.3s">
-                                <div class="list_inner">
-                                    <div class="image_wrap">
-                                        <a href="hunterhelp.html">
-                                            <img src="..//img/portfolio/hunterhelp.jpg" alt="" />
-                                        </a>
-                                    </div>
-                                    <div class="portfolio_item_Title">
-                                        <span>HunterHelp</span>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="wow fadeIn design" data-wow-duration="1.2s" data-wow-delay="0.1s">
+                            <li class="wow fadeIn">
                                 <div class="list_inner">
                                     <div class="image_wrap">
                                         <a href="inreado.html">
@@ -245,19 +193,19 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="wow fadeIn design" data-wow-duration="1.2s" data-wow-delay="0.1s">
+                            <li class="wow fadeIn">
                                 <div class="list_inner">
                                     <div class="image_wrap">
-                                        <a href="balter.html">
-                                            <img src="..//img/portfolio/balter.jpg" alt="" />
+                                        <a href="finpix.html">
+                                            <img src="..//img/portfolio/finpix.jpg" alt="" />
                                         </a>
                                     </div>
                                     <div class="portfolio_item_Title">
-                                        <span>Balter concept</span>
+                                        <span>FinPix</span>
                                     </div>
                                 </div>
                             </li>
-                            <li class="wow fadeIn design" data-wow-duration="1.2s" data-wow-delay="0.1s">
+                            <li class="wow fadeIn">
                                 <div class="list_inner">
                                     <div class="image_wrap">
                                         <a href="tron.html">
@@ -269,12 +217,11 @@
                                     </div>
                                 </div>
                             </li>
-
                         </ul>
                     </div>
                 </div>
             </section>
-            <!-- /PORTFOLIO -->
+            <!-- /WORKS -->
             <!-- CONTACT-->
             <section class="inedi_tm_section" id="contact">
                 <div class="container">
@@ -327,8 +274,10 @@
             <!-- FOOTER -->
             <footer class="inedi_tm_section">
                 <div class="inedi_tm_footer_wrap">
-                    <p class="wow fadeIn" data-wow-duration="1.2s"><i class="xcon-paw">&nbsp;&nbsp;</i>Copyright &copy;
-                    <script>new Date().getFullYear() > 2009 && document.write(new Date().getFullYear());</script>. <a href="https://inediapps.com/">ООО&nbsp;"ИНЕДИ"</a></p>
+                    <p class="wow fadeIn" data-wow-duration="1.2s">
+                        <i class="xcon-paw">&nbsp;&nbsp;</i>Copyright &copy;
+                        <script>new Date().getFullYear() > 2009 && document.write(new Date().getFullYear());</script>. <a href="https://inediapps.com/">ООО&nbsp;"ИНЕДИ"</a>
+                    </p>
                 </div>
             </footer>
             <!-- /FOOTER -->

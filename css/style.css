@@ -1770,6 +1770,7 @@ img.svg{
     .inedi_tm_contact_wrap .leftbox{display: none;}
 	.inedi_tm_about_wrap .rightbox{width: 100%;padding: 0;}
     .inedi_tm_contact_wrap .rightbox{width: 100%;padding: 0;}
+    .inedi_tm_list_wrap[data-column="2"] ul.total > li{width: 100%;}
 	.inedi_tm_list_wrap[data-column="3"] ul.total > li{width: 50%;}
 	.inedi_tm_list_wrap[data-column="4"] ul.total > li{width: 50%;}
 	.inedi_tm_list_wrap[data-column="5"] ul.total > li{width: 50%;}

@@ -87,5 +87,13 @@
     <loc>https://inediapps.com/portfolio/packingmachine.html</loc>
     <changefreq>monthly</changefreq>
   </url>
+  <url>
+    <loc>https://inediapps.com/portfolio/nitro.html</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://inediapps.com/portfolio/oscilloscope.html</loc>
+    <changefreq>monthly</changefreq>
+  </url>
   
 </urlset>

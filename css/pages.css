@@ -111,6 +111,10 @@ h6 { font-size: 16px; }
     padding-top: 134px;
 }
 
+.inedi_tm_section.worknext {
+    background-color: #0c0c0c;
+}
+
 .title_conteiner {
     width: 100%;
     height: auto;
@@ -121,7 +125,7 @@ h6 { font-size: 16px; }
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    margin-bottom:80px;
+    margin-bottom: 30px;
 }
 
 .title_wrap {

@@ -287,7 +287,7 @@ https://github.com/imakewebthings/waypoints/blob/master/licenses.txt
 			var offset 		= $(target).offset().top;
 
 			$('html, body').animate({
-				scrollTop: offset-85
+				scrollTop: offset-55
 			}, this.config.scrollSpeed, this.config.easing, callback);
 		},
 

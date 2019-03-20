@@ -297,7 +297,7 @@ function inedi_tm_anchor(){
 	jQuery(".anchor a").on('click', function(evn){
 		evn.preventDefault();
 		jQuery('html,body').scrollTo(this.hash, this.hash, {
-			gap: { y: -scrollOffset-85 },
+			gap: { y: -scrollOffset-55 },
 			animation:{
 				duration: 1500,
 				easing: "easeInOutExpo"

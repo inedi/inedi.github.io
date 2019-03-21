@@ -561,7 +561,7 @@ img.svg{
 .inedi_tm_main_title_holder_wrap.about{margin-bottom: 30px;}
 .inedi_tm_main_title_holder_wrap.news{margin-bottom: 30px;}
 .inedi_tm_main_title_holder_wrap.portfolio{margin-bottom: 22px;}
-.inedi_tm_main_title_holder_wrap.testimonial{margin-bottom: 10px;}
+.inedi_tm_main_title_holder_wrap.testimonial{/*margin-bottom: 10px;*/}
 .inedi_tm_main_title_holder_wrap.contact{margin-bottom: 30px;}
 .inedi_tm_main_title_holder_wrap .number_wrap {
         width: 10px;

@@ -4,7 +4,7 @@
 /*	Paralax
 /*---------------------------------------------------*/
 /*.inedi_tm_universal_box_wrap .overlay_image.terneo_main {
-    background-image: url(..//portfolio/terneo/terneo1.png);
+    background-image: url(../portfolio/terneo/terneo1.png);
 }*/
 
 /*---------------------------------------------------*/
@@ -35,6 +35,12 @@ h2 {
     font-size: 18px;
     font-weight: 700;
 }
+
+.h2class {
+    font-size: 30px;
+    margin-bottom: 18px;
+}
+
 h3 {
     font-size: 24px;
     margin-bottom: 18px;
@@ -167,6 +173,27 @@ h6 { font-size: 16px; }
     left: 0;
     right: auto;
     bottom: 0;
+}
+
+.read_more a {
+    color: #FFF;
+    text-decoration: none;
+    background-color: #ed2629;
+    padding: 8px 30px;
+    display: inline-block;
+    font-weight: 500;
+    border-radius: 3px;
+    margin-bottom: 30px;
+
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.read_more a:hover {
+    background-color: #262626;
 }
 
 video{

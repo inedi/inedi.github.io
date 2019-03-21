@@ -72,7 +72,7 @@ img.svg{
 }
 .inedi_tm_section.about {
     /*margin-top: 50px;*/
-  /*background-image: url(..//img/background/back3.png);
+  /*background-image: url(../img/background/back3.png);
     background-repeat:no-repeat;
     background-size:auto;
     background-position-x:right;
@@ -439,7 +439,7 @@ img.svg{
 	z-index: 20;
 }
 .inedi_tm_universal_box_wrap .overlay_color.video{background-color: rgba(0,0,0,.8);}
-.inedi_tm_universal_box_wrap .overlay_image.hero{background-image: url(..//img/jarallax/1.jpg);}
+.inedi_tm_universal_box_wrap .overlay_image.hero{background-image: url(../img/jarallax/1.jpg);}
 .inedi_tm_universal_box_wrap .content{
 	width: 100%;
 	height: auto;
@@ -599,7 +599,7 @@ img.svg{
     color: #FFF;
     text-decoration: none;
     background-color: #ed2629;
-    padding: 8px 35px;
+    padding: 8px 30px;
     display: inline-block;
     font-weight: 500;
     border-radius: 3px;
@@ -620,7 +620,7 @@ img.svg{
     top: 0;
     right: 0;
     bottom: 0;
-    background-image: url(..//img/background/team.png);
+    background-image: url(../img/background/team.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -687,7 +687,7 @@ img.svg{
 /*---------------------------------------------------*/
 .inedi_tm_section.services {
     background-color: #0c0c0c;
-    /*background-image: url(..//img/background/grd.png);
+    /*background-image: url(../img/background/grd.png);
     background-repeat: repeat;
     background-size: auto;
     background-position: center;*/
@@ -1015,7 +1015,7 @@ img.svg{
 /*	08)	inedi PORTFOLIO
 /*---------------------------------------------------*/
 /*.inedi_tm_section.portfolio {
-    background-image: url(..//img/background/grd.png);
+    background-image: url(../img/background/grd.png);
     background-repeat: repeat;
     background-size: auto;
     background-position: center;
@@ -1144,7 +1144,7 @@ img.svg{
 /*---------------------------------------------------*/
 .inedi_tm_section.clients {
     background-color: #0c0c0c;
-    /*background-image: url(..//img/background/back.png);
+    /*background-image: url(../img/background/back.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position-x: left;
@@ -1160,7 +1160,7 @@ img.svg{
 	   -moz-box-sizing: border-box;
 			box-sizing: border-box;
 }
-.inedi_tm_universal_box_wrap .overlay_image.contact{/*background-image: url(..//img/jarallax/2.jpg);*/}
+.inedi_tm_universal_box_wrap .overlay_image.contact{/*background-image: url(../img/jarallax/2.jpg);*/}
 .inedi_tm_universal_box_wrap .overlay_color.testimonial{background-color: rgba(0,0,0,.5);}
 .inedi_tm_universal_box_wrap .content.testimonial{padding-bottom: 80px;}
 
@@ -1228,7 +1228,7 @@ img.svg{
     color: #FFF;
     text-decoration: none;
     background-color: #ed2629;
-    padding: 8px 35px;
+    padding: 8px 30px;
     margin-bottom: 30px;
     display: inline-block;
     font-weight: 500;
@@ -1255,7 +1255,7 @@ img.svg{
 /*	10) inedi BEST
 /*---------------------------------------------------*/
 .inedi_tm_section.best {
-    /*background-image: url(..//img/background/grd.png);
+    /*background-image: url(../img/background/grd.png);
     background-repeat: repeat;
     background-size: auto;
     background-position: center;*/
@@ -1359,7 +1359,7 @@ img.svg{
     color: #FFF;
     text-decoration: none;
     background-color: #262626;
-    padding: 8px 35px;
+    padding: 8px 30px;
     display: inline-block;
     font-weight: 500;
     border-radius: 3px;
@@ -1383,7 +1383,7 @@ img.svg{
     height: auto;
     clear: both;
     background-color: #060606;
-    background-image: url(..//img/togetherblock/1.jpg);
+    background-image: url(../img/togetherblock/1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -1469,7 +1469,7 @@ img.svg{
     color: #FFF;
     text-decoration: none;
     background-color: #ed2629;
-    padding: 8px 35px;
+    padding: 8px 30px;
     display: inline-block;
     font-weight: 500;
     border-radius: 3px;
@@ -1488,7 +1488,7 @@ img.svg{
     position: absolute;
     top: 0;
     bottom: 0;
-    background-image: url(..//img/background/grd.png);
+    background-image: url(../img/background/grd.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

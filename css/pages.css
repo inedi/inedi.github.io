@@ -116,6 +116,9 @@ h6 { font-size: 16px; }
 .inedi_tm_section.page {
     padding-top: 134px;
 }
+.inedi_tm_section.portfolioall {
+    padding-top: 54px;
+}
 
 .inedi_tm_section.worknext {
     background-color: #0c0c0c;

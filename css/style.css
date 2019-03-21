@@ -1443,83 +1443,36 @@ img.svg{
     border-image-width: 0;
     outline: none;
 }
-.inedi_tm_contact_wrap {
+.inedi_tm_list_wrap.contact {
     width: 100%;
     height: auto;
     clear: both;
     float: left;
-    margin-bottom: 80px;
+    /*margin-bottom: 80px;*/
     position: relative;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
-.inedi_tm_contact_wrap .author_wrap{
-	width: 100%;
-	height: auto;
-	clear: both;
-	float: left;
-	position: relative;
-	
-	-webkit-box-sizing: border-box;
-	   -moz-box-sizing: border-box;
-			box-sizing: border-box;
-}
-.inedi_tm_contact_wrap .read_more a {
-    color: #FFF;
-    text-decoration: none;
-    background-color: #ed2629;
-    padding: 8px 30px;
-    display: inline-block;
-    font-weight: 500;
-    border-radius: 3px;
-    -webkit-transition: all .3s ease;
-    -moz-transition: all .3s ease;
-    -ms-transition: all .3s ease;
-    -o-transition: all .3s ease;
-    transition: all .3s ease;
-}
-.inedi_tm_contact_wrap .read_more a:hover {
-    background-color: #262626;
-}
-.inedi_tm_contact_wrap .leftbox {
-    width: 31.5%;
-    height: auto;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    background-image: url(../img/background/grd.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    float: left;
-    right: auto;
-    left: 0;
-}
-.inedi_tm_contact_wrap .rightbox {
-    width: 68.5%;
-    float: right;
-    padding-right: 0;
-    padding-left: 30px;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-.inedi_tm_contact_wrap .rightbox .name_holder{margin-bottom: 18px;}
-.inedi_tm_contact_wrap .rightbox .name_holder h3{
-    color: #FFF; 
-    font-size: 24px;
-
-}
-.inedi_tm_contact_wrap .rightbox .definition p {
+.inedi_tm_list_wrap.contact .definition p {
     color: #eee;
     font-size: 20px;
     font-weight:600;
     margin-bottom: 20px;
 }
-.inedi_tm_contact_wrap .rightbox .definition span {
+.inedi_tm_list_wrap.contact .definition span {
     font-style: italic;
+    font-size: 24px;
+}
+.inedi_tm_list_wrap.contact h4 {
     font-size: 20px;
+    font-weight: 600;
+    line-height: 1.8;
+    margin-bottom: 10px;
+    margin-left: 7px;
+}
+.inedi_tm_list_wrap.contact .discord {
+    margin-top: 9px;
 }
 .iconbox ul {
     margin: 0;
@@ -1537,7 +1490,7 @@ img.svg{
 .iconbox ul li a{
 	text-decoration: none;
 	color: #FFF;
-	font-size: 24px;
+	font-size: 33px;
 	
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
@@ -1700,7 +1653,6 @@ img.svg{
 }
 @media (max-width: 1200px) {
 	.inedi_tm_about_wrap .rightbox{padding: 0 70px 0 0;}
-    .inedi_tm_contact_wrap .rightbox{padding: 0 70px 0 30px;}
 	.inedi_tm_list_wrap[data-column="5"] ul.total > li{width: 25%;}
     .inedi_tm_list_wrap[data-column="6"] ul.total > li{width: 16.6666%;}
 }
@@ -1710,7 +1662,6 @@ img.svg{
 	.inedi_tm_list_wrap[data-column="5"] ul.total > li{width: 33.3333%;}
     .inedi_tm_list_wrap[data-column="6"] ul.total > li{width: 25%;}
 	.inedi_tm_about_wrap .rightbox{padding: 0 50px 0 0;}
-    .inedi_tm_contact_wrap .rightbox{padding: 0 50px 0 30px;}
 	.inedi_tm_hero_header .hero_title .first{font-size: 42px;}
 	.inedi_tm_universal_box_wrap .hero_title.homepage_third h3{font-size: 42px;}
 	.inedi_tm_animation_text_word{font-size: 18px;}
@@ -1725,9 +1676,7 @@ img.svg{
 	.inedi_tm_navigation_wrap .nav_list_wrap{display: none;}
 
 	.inedi_tm_about_wrap .leftbox{display: none;}
-    .inedi_tm_contact_wrap .leftbox{display: none;}
 	.inedi_tm_about_wrap .rightbox{width: 100%;padding: 0;}
-    .inedi_tm_contact_wrap .rightbox{width: 100%;padding: 0;}
     .inedi_tm_list_wrap[data-column="2"] ul.total > li{width: 100%;}
 	.inedi_tm_list_wrap[data-column="3"] ul.total > li{width: 50%;}
 	.inedi_tm_list_wrap[data-column="4"] ul.total > li{width: 50%;}
@@ -1735,7 +1684,6 @@ img.svg{
     .inedi_tm_list_wrap[data-column="6"] ul.total > li{width: 33.333%;}
 	.inedi_tm_portfolio_filter li{margin: 0 15px 0 0;}
 	.inedi_tm_portfolio_list > li{width: 50%;}
-	.inedi_tm_contact_wrap .short_contact ul li{width: 100%;margin-bottom: 20px;}
 	.inedi_tm_main_title_holder_wrap .number_wrap{width: 10px;line-height: 70px;}
 	.inedi_tm_main_title_holder_wrap .number_wrap span{font-size: 36px;}
 	.inedi_tm_main_title_holder_wrap .title_wrap span{font-size: 36px; line-height: 70px;}
@@ -1745,12 +1693,10 @@ img.svg{
     .inedi_tm_animation_text_404{font-size: 17px;}
 	.inedi_tm_main_demos_list_wrap ul li{width: 50%;}
 	.inedi_tm_about_wrap.homepage_second .rightbox{padding-left: 0;}
-    .inedi_tm_contact_wrap .rightbox{padding-left: 0;}
 }
 
 
 @media (max-width: 480px) {
-    .inedi_tm_contact_wrap .rightbox .definition p {font-size:18px;}
 	.inedi_tm_top_bar_wrap ul li{margin: 0;}
 	.inedi_tm_list_wrap[data-column="2"] ul.total > li{width: 100%;}
 	.inedi_tm_list_wrap[data-column="3"] ul.total > li{width: 100%;}

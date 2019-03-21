@@ -1179,15 +1179,23 @@ img.svg{
     text-align:center;
 }
 .inedi_tm_testimonial_wrap .definitions_wrap {
-    padding: 10px 25px 0 25px;
+   
     text-align: center;
 }
 .inedi_tm_testimonial_wrap .image_wrap {
     position: relative;
 }
-    .inedi_tm_testimonial_wrap .image_wrap .bestpreview {
-        display: block;
-    }
+.inedi_tm_testimonial_wrap .image_wrap .bestpreview {
+    display: block;
+    /*-webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+	    -ms-transition: all .3s ease;
+	     -o-transition: all .3s ease;
+	        transition: all .3s ease;*/
+}
+.inedi_tm_testimonial_wrap .image_wrap .bestpreview:hover {
+     /*transform: scale(1.05);*/
+}
 .inedi_tm_testimonial_wrap .title_holder {
     margin-bottom: 10px;
 }
@@ -1211,7 +1219,7 @@ img.svg{
 }
 
 .inedi_tm_testimonial_wrap .definition {
-    margin-bottom: 20px;
+    margin: 0px 40px 25px 40px;
 }
 .inedi_tm_testimonial_wrap .definition p {
     color: #eee;
@@ -1219,8 +1227,9 @@ img.svg{
 .inedi_tm_testimonial_wrap .read_more a {
     color: #FFF;
     text-decoration: none;
-    background-color: #262626;
+    background-color: #ed2629;
     padding: 8px 35px;
+    margin-bottom: 30px;
     display: inline-block;
     font-weight: 500;
     border-radius: 3px;
@@ -1231,10 +1240,17 @@ img.svg{
     transition: all .3s ease;
 }
 .inedi_tm_testimonial_wrap .read_more a:hover {
-    background-color: #ed2629;
+    background-color: #fff;
+    color: #ed2629;
 }
 
-
+.inedi_tm_list_wrap.clients_list .inner_list {
+    background-color: #181818;
+    border-radius: 3px;
+    height: 300px;
+    overflow: hidden;
+    min-height: 265px;
+}
 /*---------------------------------------------------*/
 /*	10) inedi BEST
 /*---------------------------------------------------*/

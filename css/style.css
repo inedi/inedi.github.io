@@ -686,7 +686,7 @@ img.svg{
 /*	07)	inedi SERVICES
 /*---------------------------------------------------*/
 .inedi_tm_section.services {
-    background-color: #0c0c0c;
+    background-color: #101010;
     /*background-image: url(../img/background/grd.png);
     background-repeat: repeat;
     background-size: auto;
@@ -1143,7 +1143,7 @@ img.svg{
 /*	09) inedi CLIENTS
 /*---------------------------------------------------*/
 .inedi_tm_section.clients {
-    background-color: #0c0c0c;
+    background-color: #101010;
     /*background-image: url(../img/background/back.png);
     background-repeat: no-repeat;
     background-size: contain;

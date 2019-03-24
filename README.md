@@ -22,7 +22,6 @@ https://developers.google.com/search/docs/data-types/article?hl=ru#non-amp
 - [ ] Boening Tehnomini
 - [ ] Boening Analog
 - [ ] Boening пульт спальни
-- [ ] Умный дом Ipad
 - [ ] Iridium
 - [ ] ...**Киоск навигации** *(in progress)*
 - [ ] Абу-даби киоск

@@ -20,7 +20,6 @@ https://developers.google.com/search/docs/data-types/article?hl=ru#non-amp
 - [ ] мониторинг под office
 - [ ] Boening Black
 - [ ] Boening Tehnomini
-- [ ] Boening Analog
 - [ ] Boening пульт спальни
 - [ ] Iridium
 - [ ] ...**Киоск навигации** *(in progress)*
@@ -31,5 +30,5 @@ https://developers.google.com/search/docs/data-types/article?hl=ru#non-amp
 - [ ] Medik
 - [ ] Русьгидро
 - [ ] Чатилка
-- [ ] технониколь
+- [ ] технониколь 
 - [ ] раскраска / мозаика ?

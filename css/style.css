@@ -1126,7 +1126,7 @@ img.svg{
     background-color: rgba(0, 0, 0, 0.75);
     width: 100%;
     text-align: center;
-    padding: 25px 0;
+    padding: 18px 0 10px 0;
     pointer-events: none;
 }
 .portfolio_item_Title span{
@@ -1135,7 +1135,7 @@ img.svg{
 	display: block;
 	text-transform: uppercase;
 	font-weight: 700;
-	font-size: 15px;
+	font-size: 14px;
 	position: relative;
 }
 

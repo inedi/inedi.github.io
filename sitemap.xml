@@ -119,5 +119,12 @@
     <loc>https://inediapps.com/portfolio/rushydro.html</loc>
     <changefreq>monthly</changefreq>
   </url>
-  
+  <url>
+    <loc>https://inediapps.com/portfolio/bionic.html</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://inediapps.com/portfolio/hyterus.html</loc>
+    <changefreq>monthly</changefreq>
+  </url>
 </urlset>

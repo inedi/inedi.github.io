@@ -1,5 +1,6 @@
 User-agent: *
 Disallow: /resources/
+Disallow: /webplayer/
 Disallow: /img/background/
 Disallow: /portfolio/boening3/
 Sitemap: https://inediapps.com/sitemap.xml

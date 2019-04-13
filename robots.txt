@@ -3,4 +3,7 @@ Disallow: /resources/
 Disallow: /webplayer/
 Disallow: /img/background/
 Disallow: /portfolio/boening3/
+Disallow: /portfolio/boening2/
+Disallow: /portfolio/boening/
+Disallow: /portfolio/AHD430/
 Sitemap: https://inediapps.com/sitemap.xml

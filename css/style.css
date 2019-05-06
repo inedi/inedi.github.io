@@ -4,7 +4,7 @@
 	03) inedi MOBILE MENU
 	04) inedi HAMBURGER
 	05) inedi CONTENT
-	06) inedi ABOUTa
+	06) inedi ABOUT
 	07)	inedi SERVICES
 	08)	inedi PORTFOLIO
 	09) inedi CLIENTS
@@ -656,6 +656,15 @@ img.svg{
     font-style: italic;
     font-size: 14px;
 } 
+
+.inedi_tm_about_wrap .rightbox .definition a {
+    color: #ed2629;
+    
+}
+.inedi_tm_about_wrap .rightbox .definition a:hover {
+    color: dimgray;
+}
+
 /*.iconbox ul{
 	margin:0;
 	list-style-type: none;

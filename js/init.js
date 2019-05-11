@@ -364,7 +364,7 @@ function inedi_tm_animate_text() {
     var animateSpan = jQuery('.inedi_tm_animation_text_word');
 
     animateSpan.typed({
-        strings: ["UX Engineering", "Apps Development", "UI Designers", "WPF XAML UWP", "iOS Android","Embedded systems"],
+        strings: ["Apps Development", "UX Engineering", "UI Designers", "WPF XAML UWP WEB", "iOS Android","Embedded systems"],
         loop: true,
         startDelay: 1e3,
         backDelay: 2e3
@@ -378,7 +378,7 @@ function inedi_tm_animate_text_ru() {
     var animateSpan = jQuery('.inedi_tm_animation_text_ru');
 
     animateSpan.typed({
-        strings: ["UI Дизайн", "Юзабилити", "Разработка ПО", "WPF XAML UWP", "iOS Android", "Встраиваемые системы"],
+        strings: ["UI Дизайн", "Разработка ПО", "Юзабилити",  "WPF XAML UWP WEB", "iOS Android", "Встраиваемые системы"],
         loop: true,
         startDelay: 1e3,
         backDelay: 2e3

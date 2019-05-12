@@ -151,5 +151,8 @@
     <loc>https://inediapps.com/portfolio/kindergartenkiosk.html</loc>
     <changefreq>monthly</changefreq>
   </url>
-  
+  <url>
+    <loc>https://inediapps.com/portfolio/vekselkiosk.html</loc>
+    <changefreq>monthly</changefreq>
+  </url>
 </urlset>

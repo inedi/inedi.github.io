@@ -66,6 +66,13 @@ h6 { font-size: 16px; }
     margin-bottom: 30px;
 }
 
+.block_content a {
+    color: #ed2629;
+}
+    .block_content a:hover {
+        color: dimgray;
+    }
+
 .block_content.short {
     max-width: 800px;
 }
@@ -177,6 +184,8 @@ h6 { font-size: 16px; }
     box-sizing: border-box;
 }
 
+
+
 .leftbox {
     width: 31.5%;
     float: left;
@@ -186,6 +195,7 @@ h6 { font-size: 16px; }
     right: auto;
     bottom: 0;
 }
+
 
 .read_more a {
     color: #FFF;
@@ -206,6 +216,7 @@ h6 { font-size: 16px; }
 
 .read_more a:hover {
     background-color: #262626;
+    color: white;
 }
 
 video{

@@ -135,4 +135,21 @@
     <loc>https://inediapps.com/portfolio/infokiosk.html</loc>
     <changefreq>monthly</changefreq>
   </url>
+  <url>
+    <loc>https://inediapps.com/portfolio/kemerovokiosk.html</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://inediapps.com/portfolio/gosuslugikiosk.html</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://inediapps.com/portfolio/schoolkiosk.html</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://inediapps.com/portfolio/kindergartenkiosk.html</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+  
 </urlset>

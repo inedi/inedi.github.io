@@ -19,3 +19,9 @@ https://developers.google.com/search/docs/data-types/article?hl=ru#non-amp
 - [ ] Medik
 - [ ] Чатилка
 - [ ] раскраска / мозаика ?
+- [ ] призма
+- [ ] кпи гв
+- [ ] гв старый ui
+- [ ] гв новый
+- [ ] гв портал кластера
+- [ ] гв мобильное

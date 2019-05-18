@@ -159,8 +159,12 @@
     <loc>https://inediapps.com/portfolio/iridium.html</loc>
     <changefreq>monthly</changefreq>
   </url>
-<url>
+  <url>
     <loc>https://inediapps.com/portfolio/neohome.html</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://inediapps.com/portfolio/autotracker.html</loc>
     <changefreq>monthly</changefreq>
   </url>
 </urlset>

@@ -167,4 +167,8 @@
     <loc>https://inediapps.com/portfolio/autotracker.html</loc>
     <changefreq>monthly</changefreq>
   </url>
+  <url>
+    <loc>https://inediapps.com/portfolio/jabber.html</loc>
+    <changefreq>monthly</changefreq>
+  </url>
 </urlset>

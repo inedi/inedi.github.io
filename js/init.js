@@ -173,6 +173,14 @@ function inedi_tm_jarallax(){
 
 // filterable 
 
+function getHashFilter() {
+    var hash = location.hash;
+    // get filter=filterName
+    var matches = location.hash.match(/filter=([^&]+)/i);
+    var hashFilter = matches && matches[1];
+    return hashFilter && decodeURIComponent(hashFilter);
+}
+
 function inedi_tm_portfolio(){
 
 	"use strict";

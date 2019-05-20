@@ -175,4 +175,12 @@
     <loc>https://inediapps.com/portfolio/citylive.html</loc>
     <changefreq>monthly</changefreq>
   </url>
+  <url>
+    <loc>https://inediapps.com/portfolio/mycoloringpages.html</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://inediapps.com/portfolio/mycoloringpages-ru.html</loc>
+    <changefreq>monthly</changefreq>
+  </url>
 </urlset>

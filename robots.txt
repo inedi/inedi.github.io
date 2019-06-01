@@ -6,4 +6,5 @@ Disallow: /portfolio/boening3/
 Disallow: /portfolio/boening2/
 Disallow: /portfolio/boening/
 Disallow: /portfolio/ahd430/
+Disallow: /portfolio/gollardvision/
 Sitemap: https://inediapps.com/sitemap.xml

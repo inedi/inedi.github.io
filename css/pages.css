@@ -219,6 +219,16 @@ h6 { font-size: 16px; }
     color: white;
 }
 
+
+.link a {
+    font-size: 18px;
+    font-weight: 500;
+    color: #FFF;
+}
+    .link a:hover {
+        color: #ed2629;
+    }
+
 video{
     width: 100%;
     height: auto;

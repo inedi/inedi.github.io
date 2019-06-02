@@ -223,11 +223,11 @@ h6 { font-size: 16px; }
 .link a {
     font-size: 18px;
     font-weight: 500;
-    color: #FFF;
+    /*color: #FFF;*/
 }
-    .link a:hover {
+    /*.link a:hover {
         color: #ed2629;
-    }
+    }*/
 
 video{
     width: 100%;

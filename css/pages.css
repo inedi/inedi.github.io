@@ -135,6 +135,16 @@ h6 { font-size: 16px; }
     background-color: #101010;
 }
 
+.inedi_tm_section.denis {
+    padding-top: 134px;
+    /*background-image: url(../img/jarallax/4654.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-x: center;
+    background-position-y: top;*/
+}
+
+
 .title_conteiner {
     width: 100%;
     height: auto;

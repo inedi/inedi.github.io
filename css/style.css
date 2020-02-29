@@ -49,6 +49,12 @@ a:hover{color: #ed2629;}
 .redI {
     color: #ed2629;
 }
+.greenI {
+    color: #20d450;
+}
+.orangeI {
+    color: #fc9700;
+}
 svg{
 	fill: currentcolor;
 	width: 15px;

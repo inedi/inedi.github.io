@@ -44,6 +44,10 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
+    <loc>https://inediapps.com/resume/denis.html</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://inediapps.com/portfolio/</loc>
     <changefreq>weekly</changefreq>
   </url>

@@ -7,4 +7,6 @@ Disallow: /portfolio/boening2/
 Disallow: /portfolio/boening/
 Disallow: /portfolio/ahd430/
 Disallow: /portfolio/gollardvision/
+Disallow: /portfolio/gollardmobile/
+Disallow: /portfolio/gollardkpi/
 Sitemap: https://inediapps.com/sitemap.xml

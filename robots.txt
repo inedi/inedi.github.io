@@ -1,6 +1,7 @@
 User-agent: *
 Disallow: /resources/
 Disallow: /webplayer/
+Disallow: /pdf/
 Disallow: /img/background/
 Disallow: /portfolio/boening3/
 Disallow: /portfolio/boening2/

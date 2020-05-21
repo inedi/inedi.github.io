@@ -1,8 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\portfolio"
+    "\\blog",
+    "\\css",
+    "\\ru",
+    "\\terms-of-service"
   ],
-  "SelectedNode": "\\portfolio\\oscilloscope.html",
+  "SelectedNode": "\\css\\style.css",
   "PreviewInSolutionExplorer": false
 }

@@ -25,14 +25,14 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <meta name="apple-mobile-web-app-title" content="TN Check">
-  <link rel="apple-touch-icon" href="tncheck/icons/Icon-192.png">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="tncheck/favicon.png" />
+  <link rel="icon" type="image/png" href="favicon.png" />
 
   <title>TN Check</title>
-  <link rel="manifest" href="tncheck/manifest.json">
-  <script defer src="tncheck/sql-wasm.js"></script>
+  <link rel="manifest" href="manifest.json">
+  <script defer src="sql-wasm.js"></script>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAd-mxLJ6Z6k-Bq3P1s_cT_LGr9zoc3wNM"></script>
 </head>
 
@@ -49,8 +49,8 @@
       }
       scriptLoaded = true;
       var scriptTag = document.createElement('script');
-      scriptTag.src = 'tncheck/main.dart.js';
-      scriptTag.type = 'tncheck/application/javascript';
+      scriptTag.src = 'main.dart.js';
+      scriptTag.type = 'application/javascript';
       document.body.append(scriptTag);
     }
 
@@ -60,7 +60,7 @@
         // Wait for registration to finish before dropping the <script> tag.
         // Otherwise, the browser will load the script multiple times,
         // potentially different versions.
-        var serviceWorkerUrl = 'tncheck/flutter_service_worker.js?v=' + serviceWorkerVersion;
+        var serviceWorkerUrl = 'flutter_service_worker.js?v=' + serviceWorkerVersion;
         navigator.serviceWorker.register(serviceWorkerUrl)
           .then((reg) => {
             function waitForActivation(serviceWorker) {
